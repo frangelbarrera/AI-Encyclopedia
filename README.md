@@ -6,9 +6,9 @@ This is a comprehensive and organized collection of directories, tools, learning
 
 ## 📊 Repository Statistics
 - **800+** tools and resources cataloged
-- **150+** AI directories organized
+- **130+** AI directories organized
 - **50+** specialized categories
-- **100+** free educational resources
+- **25+** free educational resources
 - Continuously updated with the latest innovations
 
 ## 🗂️ Quick Navigation Index
@@ -988,6 +988,7 @@ This is a comprehensive and organized collection of directories, tools, learning
 - **[ClimateTrace](https://climatetrace.org)**: Use of AI and satellites to track greenhouse gas emissions in real-time.
 
 ---
+
 
 
 
