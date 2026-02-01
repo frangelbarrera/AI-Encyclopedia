@@ -1007,6 +1007,12 @@ This is a comprehensive and organized collection of directories, tools, learning
 ---
 
 
+## 🤝 Contributing
+Found a cool AI tool? Contributions are welcome!
+1. Fork the repo.
+2. Add your tool to the right category.
+3. Open a Pull Request.
+
 
 
 
