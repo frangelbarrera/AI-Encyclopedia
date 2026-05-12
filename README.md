@@ -793,6 +793,7 @@ This is a comprehensive and organized collection of directories, tools, learning
 - **[PlantTattoosAI](https://www.planttattoosai.com/)**: Plant and flower tattoos designs generator trained on real botanicals.
 
 ### Graphic Design Tools
+- **[LandscapioAI](https://www.landscapioai.com/)**: AI landscape design generator for outdoor photos, planting ideas, layouts, and cost-aware yard, garden, patio, and home-improvement plans.
 - **[Brandmark](https://brandmark.io/)**: AI-based logo design tool.
 - **[Gamma](https://gamma.app/)**: Create beautiful presentations and webpages with none of the formatting and design work.
 - **[Microsoft Designer](https://designer.microsoft.com/)**: Stunning designs in a flash.
