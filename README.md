@@ -869,6 +869,7 @@ This is a comprehensive and organized collection of directories, tools, learning
 - **[Based AI](https://www.basedlabs.ai/)**: AI Intuitive Interface for Video creating
 - **[klingai](https://app.klingai.com/global/)**: AI creative studio boasts AI image and video generation capabilities.
 - **[Sisif](https://sisif.ai/)**: AI Video Generator: Turn Text into Stunning Videos in Seconds
+- **[ImagineClip](https://imagineclip.com/)**: AI video generator for fun clips, avatar videos, stylized scenes, and shareable social content from prompts, images, and effects.
 - **[Elai](https://elai.io/)**: Create AI videos from just text.
 
 ### Animation
