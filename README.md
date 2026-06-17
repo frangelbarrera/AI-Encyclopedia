@@ -478,6 +478,7 @@ This is a comprehensive and organized collection of directories, tools, learning
 - **[Rendition Create](https://www.renditioncreate.com/)**: AI-powered UI generator for web and mobile interfaces.
 - **[Phorm.ai](https://phorm.ai/)**: AI-powered form and interface generation.
 - **[Stitch (by Google)](https://stitch.withgoogle.com/)**: AI-powered UI generator from Google Labs, uses Gemini models to convert natural language or image inputs into multi-screen mobile/web UI designs and clean front‑end code; supports Figma export and conversational iteration.
+- **[Roblox GUI Maker](https://robloxguimaker.dev/)**: AI-powered generator for Roblox Studio GUI layouts, menus, HUDs, shop screens, and Lua starter code from text prompts.
 - **[Uizard](https://uizard.io/)**: AI-powered design tool converting hand-drawn mockups, screenshots, or text into interactive prototypes and code.
 - **[Figma AI](https://figma.com/ai)**: Native AI features within Figma for automated design tasks, content generation, and design-to-code workflows.
 - **[TeleportHQ](https://teleporthq.io/)**: AI-powered front-end design platform generating production-ready code from visual designs.
