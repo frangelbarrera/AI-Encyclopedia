@@ -623,6 +623,7 @@ This is a comprehensive and organized collection of directories, tools, learning
 - **[Elephas](https://elephas.app/)**: Personal AI writing assistant for the Mac.
 - **[Lemmy](https://lemmy.co/)**: Autonomous AI Assistant for Work.
 - **[Google Sheets Formula Generator](https://bettersheets.co/google-sheets-formula-generator)**: Forget about frustrating formulas in Google Sheets.
+- **[DocGPT.ai](https://docgpt.ai/)**: AI productivity add-ons for Google Sheets, Docs, Gmail, Slides, and Forms.
 - **[CreateEasily](https://createeasily.com/)**: Free speech-to-text tool for content creators that accurately transcribes audio & video files up to 2GB.
 - **[Cosmos](https://meetcosmos.com/)**: Use AI locally and offline to search your media files by their content, find similar images or video scenes using.
 - **[aiPDF](https://aipdf.ai)**: The most advanced AI document assistant.
