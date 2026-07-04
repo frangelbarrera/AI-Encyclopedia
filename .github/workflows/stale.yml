@@ -1,0 +1,65 @@
+name: Mark and close stale issues and PRs
+
+on:
+  schedule:
+    - cron: '0 3 * * *'  # Daily at 03:00 UTC
+  workflow_dispatch:
+
+permissions:
+  issues: write
+  pull-requests: write
+  contents: read
+
+jobs:
+  stale:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/stale@v9
+        with:
+          repo-token: ${{ secrets.GITHUB_TOKEN }}
+
+          # Timing
+          days-before-stale: 60
+          days-before-close: 14
+
+          # Exemptions
+          exempt-issue-labels: 'pinned,security,keep-open,good first issue'
+          exempt-pr-labels: 'pinned,security,keep-open,good first issue'
+
+          # Don't auto-close PRs — they may be waiting for upstream
+          days-before-pr-close: -1
+
+          # Stale labels
+          stale-issue-label: 'stale'
+          stale-pr-label: 'stale'
+
+          # Stale messages
+          stale-issue-message: |
+            👋 This issue has been automatically marked as **stale** after 60 days of inactivity.
+
+            If this is still relevant, please drop a comment to bump it — otherwise it will be closed in **14 days**.
+
+            Thanks for your contribution! 🌌
+
+          stale-pr-message: |
+            👋 This PR has been automatically marked as **stale** after 60 days of inactivity.
+
+            If you'd still like this to be reviewed, please drop a comment or push a new commit to bump it.
+
+            Thanks for your patience! 🌌
+
+          # Close messages
+          close-issue-message: |
+            🔒 This issue has been automatically closed after 14 days of inactivity since being marked stale.
+
+            If this is still important, feel free to reopen it or open a new issue with updated context. We'll take another look!
+
+          close-pr-message: |
+            🔒 This PR has been automatically closed due to extended inactivity.
+
+            If you'd like to pick it back up, you're welcome to reopen it or open a new PR with the latest changes. Thanks for the effort regardless! 🙏
+
+          # Other settings
+          operations-per-run: 30
+          ascending: true
+          enable-statistics: true

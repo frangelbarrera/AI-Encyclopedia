@@ -1,0 +1,132 @@
+name: Auto-label issues and PRs
+
+on:
+  issues:
+    types: [opened]
+  pull_request:
+    types: [opened, synchronize]
+
+permissions:
+  issues: write
+  pull-requests: write
+  contents: read
+
+jobs:
+  label:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Ensure labels exist
+        uses: actions/github-script@v7
+        with:
+          script: |
+            const labels = [
+              { name: 'add-tool', color: '0e8a16', description: 'Adds a new AI tool to the catalog' },
+              { name: 'broken-link', color: 'd73a4a', description: 'Reports a dead or compromised link' },
+              { name: 'tool-suggestion', color: '0075ca', description: 'Suggestion for a new tool' },
+              { name: 'category-proposal', color: '6f42c1', description: 'Proposal for a new or restructured category' },
+              { name: 'community', color: 'bfdadc', description: 'Community infrastructure changes' },
+              { name: 'documentation', color: 'f9d0c4', description: 'Documentation or pages changes' },
+              { name: 'stale', color: 'd3d3d3', description: 'Marked as stale due to inactivity' },
+            ];
+
+            for (const label of labels) {
+              try {
+                await github.rest.issues.createLabel({
+                  owner: context.repo.owner,
+                  repo: context.repo.repo,
+                  name: label.name,
+                  color: label.color,
+                  description: label.description,
+                });
+                console.log(`Created label: ${label.name}`);
+              } catch (error) {
+                if (error.status === 422) {
+                  console.log(`Label already exists: ${label.name}`);
+                } else {
+                  console.log(`Error creating label ${label.name}: ${error.message}`);
+                }
+              }
+            }
+
+      - name: Label issues by template
+        if: github.event_name == 'issues'
+        uses: actions/github-script@v7
+        with:
+          script: |
+            const issueBody = context.payload.issue.body || '';
+            const title = context.payload.issue.title || '';
+            const issueNumber = context.payload.issue.number;
+
+            const labels = new Set();
+
+            // Detect template by body markers
+            if (issueBody.includes('name: Tool Suggestion') || title.startsWith('Add ')) {
+              labels.add('enhancement');
+              labels.add('tool-suggestion');
+            } else if (issueBody.includes('name: Broken Link') || title.startsWith('[Broken Link]')) {
+              labels.add('bug');
+              labels.add('broken-link');
+            } else if (issueBody.includes('name: Category Proposal') || title.startsWith('[Category]')) {
+              labels.add('enhancement');
+              labels.add('category-proposal');
+            }
+
+            if (labels.size > 0) {
+              await github.rest.issues.addLabels({
+                owner: context.repo.owner,
+                repo: context.repo.repo,
+                issue_number: issueNumber,
+                labels: [...labels],
+              });
+              console.log(`Applied labels to issue #${issueNumber}: ${[...labels].join(', ')}`);
+            } else {
+              console.log('No template detected for issue #' + issueNumber + '. Skipping labels.');
+            }
+
+      - name: Label PRs by content
+        if: github.event_name == 'pull_request'
+        uses: actions/github-script@v7
+        with:
+          script: |
+            const prNumber = context.payload.pull_request.number;
+            const { data: files } = await github.rest.pulls.listFiles({
+              owner: context.repo.owner,
+              repo: context.repo.repo,
+              pull_number: prNumber,
+            });
+
+            const labels = new Set();
+
+            for (const file of files) {
+              const filename = file.filename;
+
+              if (filename === 'README.md') {
+                // Check if the patch adds new entries
+                const patch = file.patch || '';
+                if (/^\+\s*-\s*\*\*\[/.test(patch) || patch.includes('+\n- **[')) {
+                  labels.add('add-tool');
+                }
+              }
+
+              if (filename.startsWith('.github/') || ['CONTRIBUTING.md', 'CODE_OF_CONDUCT.md', 'SECURITY.md', '.editorconfig', '.gitattributes'].includes(filename)) {
+                labels.add('community');
+              }
+
+              if (filename.startsWith('docs/') || filename.endsWith('.md') && filename !== 'README.md' && !filename.startsWith('.github/')) {
+                labels.add('documentation');
+              }
+            }
+
+            if (labels.size > 0) {
+              await github.rest.issues.addLabels({
+                owner: context.repo.owner,
+                repo: context.repo.repo,
+                issue_number: prNumber,
+                labels: [...labels],
+              });
+              console.log(`Applied labels to PR #${prNumber}: ${[...labels].join(', ')}`);
+            } else {
+              console.log('No labels matched for PR #' + prNumber);
+            }

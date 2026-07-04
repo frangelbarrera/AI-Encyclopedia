@@ -1,0 +1,153 @@
+name: Validate PR format
+
+on:
+  pull_request:
+    branches: [main]
+    paths:
+      - 'README.md'
+
+concurrency:
+  group: ${{ github.workflow }}-${{ github.event.pull_request.number }}
+  cancel-in-progress: true
+
+permissions:
+  pull-requests: write
+  contents: read
+
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Validate README.md changes
+        uses: actions/github-script@v7
+        with:
+          script: |
+            const prNumber = context.payload.pull_request.number;
+            const issues = [];
+
+            // Fetch the PR diff
+            const { data: files } = await github.rest.pulls.listFiles({
+              owner: context.repo.owner,
+              repo: context.repo.repo,
+              pull_number: prNumber,
+            });
+
+            const readme = files.find(f => f.filename === 'README.md');
+            if (!readme) {
+              console.log('README.md not changed. Skipping validation.');
+              return;
+            }
+
+            const { additions, deletions } = readme;
+
+            // Rule 1: total lines changed ≤ 50
+            const totalLines = additions + deletions;
+            if (totalLines > 50) {
+              issues.push(
+                `- ❌ **Excessive line changes detected** (${totalLines} lines in README.md). ` +
+                `This usually means CRLF line endings were used instead of LF. ` +
+                `Please ensure your editor saves with **LF line endings** (Unix-style). ` +
+                `See the [line endings guide](https://github.com/frangelbarrera/Artificial-Intelligence-Universe/blob/main/CONTRIBUTING.md#line-endings-critical) for help fixing this.`
+              );
+            }
+
+            // Rule 2 & 3: validate new entry lines
+            const patch = readme.patch || '';
+            const addedLines = patch
+              .split('\n')
+              .filter(line => line.startsWith('+') && !line.startsWith('+++'));
+
+            const entryLines = addedLines.filter(line =>
+              /^\+- \*\*\[/.test(line)
+            );
+
+            // Remove the leading '+'
+            const rawLines = entryLines.map(l => l.substring(1));
+
+            for (const line of rawLines) {
+              const lineIssues = [];
+
+              // Check format: - **[Name](URL)**: Description.
+              const match = line.match(/^- \*\*\[(.+?)\]\((.+?)\)\*\*: (.+)$/);
+              if (!match) {
+                lineIssues.push('does not match the canonical entry format');
+              } else {
+                const [, name, url, description] = match;
+
+                // Check trailing slash
+                const urlWithoutParams = url.split('?')[0];
+                if (urlWithoutParams.endsWith('/') && urlWithoutParams.length > 8) {
+                  lineIssues.push('URL has a trailing slash');
+                }
+
+                // Check UTM / affiliate params
+                if (/[?&](ref|aff|via|utm_)/i.test(url)) {
+                  lineIssues.push('URL contains tracking/referral parameters');
+                }
+
+                // Check description length
+                if (description.length > 120) {
+                  lineIssues.push(`description is too long (${description.length}/120 chars)`);
+                }
+
+                // Check ends with period
+                if (!description.endsWith('.')) {
+                  lineIssues.push('description does not end with a period');
+                }
+              }
+
+              if (lineIssues.length > 0) {
+                issues.push(
+                  `- ⚠️ \`${line.substring(0, 80)}${line.length > 80 ? '...' : ''}\`\n` +
+                  `  ${lineIssues.map(i => `  - ${i}`).join('\n  ')}`
+                );
+              }
+            }
+
+            // Post comment
+            const formatGuideUrl = 'https://github.com/frangelbarrera/Artificial-Intelligence-Universe/blob/main/CONTRIBUTING.md#entry-format-specification';
+
+            if (issues.length > 0) {
+              const body = [
+                '## 🔍 PR Format Validation',
+                '',
+                'We found some issues that need attention before this PR can be merged:',
+                '',
+                ...issues,
+                '',
+                `📖 Please review the **[entry format specification](${formatGuideUrl})** and update your PR accordingly.`,
+                '',
+                'Once the issues are resolved, re-request a review or push a new commit and the check will re-run. Thanks for contributing! 🙏',
+              ].join('\n');
+
+              await github.rest.issues.createComment({
+                owner: context.repo.owner,
+                repo: context.repo.repo,
+                issue_number: prNumber,
+                body,
+              });
+
+              core.setFailed('PR format validation failed. See the PR comment for details.');
+            } else {
+              // Success
+              await github.rest.issues.createComment({
+                owner: context.repo.owner,
+                repo: context.repo.repo,
+                issue_number: prNumber,
+                body: [
+                  '## ✅ PR Format Validation — Passed',
+                  '',
+                  'All format checks passed:',
+                  '- Entries match the canonical format `- **[Name](URL)**: Description.`',
+                  '- No trailing slashes, UTM parameters, or referral links detected',
+                  '- Descriptions are within the 120-character limit',
+                  '- Line changes are within acceptable range',
+                  '',
+                  'A maintainer will review the content shortly. Thanks for your contribution! 🎉',
+                ].join('\n'),
+              });
+
+              console.log('PR format validation passed.');
+            }

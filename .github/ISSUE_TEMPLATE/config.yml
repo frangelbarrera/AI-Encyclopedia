@@ -1,0 +1,11 @@
+blank_issues_enabled: false
+contact_links:
+  - name: Contributing Guide
+    url: https://github.com/frangelbarrera/Artificial-Intelligence-Universe/blob/main/CONTRIBUTING.md
+    about: Please read the contributing guide before submitting an issue or PR.
+  - name: Security Report
+    url: https://github.com/frangelbarrera/Artificial-Intelligence-Universe/blob/main/SECURITY.md
+    about: Report a security vulnerability (do not use public issues).
+  - name: Discussions
+    url: https://github.com/frangelbarrera/Artificial-Intelligence-Universe/discussions
+    about: Ask questions, share ideas, or discuss the catalog with the community.

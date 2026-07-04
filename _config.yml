@@ -1,0 +1,38 @@
+# GitHub Pages configuration — builds from repo root
+# The README.md is the homepage (via jekyll-readme-index plugin)
+#
+# To use a custom domain, create a CNAME file at the repo root
+# containing your domain name, then configure DNS:
+# https://docs.github.com/en/pages/configuring-a-custom-domain
+
+title: Artificial Intelligence Universe
+description: The most expansive ecosystem of AI on GitHub. 800+ tools, autonomous agents, and next-gen resources.
+url: https://frangelbarrera.github.io
+baseurl: /Artificial-Intelligence-Universe
+
+theme: jekyll-theme-minimal
+
+markdown: kramdown
+kramdown:
+  input: GFM
+
+show_downloads: false
+
+# google_analytics: UA-XXXXXXXXX-X
+
+plugins:
+  - jekyll-readme-index
+  - jekyll-default-layout
+  - jekyll-optional-front-matter
+  - jekyll-sitemap
+  - jekyll-seo-tag
+
+exclude:
+  - 'Gemfile'
+  - 'Gemfile.lock'
+  - 'node_modules'
+  - 'docs/'
+
+author: Frangel Raúl Crespo Barrera
+twitter_username: frangelbarrera
+github_username: frangelbarrera
