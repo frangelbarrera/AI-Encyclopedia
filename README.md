@@ -666,6 +666,7 @@ This is a comprehensive and organized collection of directories, tools, learning
 - **[ReBillion.ai](https://tc.rebillion.ai/)**: AI-powered transaction coordination and workflow automation for real estate professionals.
 - **[Perch Reader](https://perch.app/)**: Free blog and newsletter aggregator with AI summaries and text-to-speech.
 - **[X-doc AI](https://x-doc.ai/)**: The most accurate AI translator.
+- **[Tudo](https://blynkai.app/tudo)**: AI task manager that converts voice notes, screenshots, and shared content into structured tasks and subtasks.
 
 ### Meeting Assistants
 - **[Otter.ai](https://otter.ai/)**: A meeting assistant that records audio, writes notes, automatically captures slides, and generates summaries.
@@ -920,7 +921,8 @@ This is a comprehensive and organized collection of directories, tools, learning
 - **[Wysa](https://wysa.com)**: Anonymous and secure emotional support chatbot.
 - **[Flourish Science](https://myflourish.ai)**: AI designed to improve daily wellness and happiness.
 - **[Calm (AI Features)](https://calm.com)**: Personalized meditation and sleep through recommendation algorithms.
-
+- **[Telo](https://blynkai.app/telo)**: AI wellness companion that reads Apple Health data and calendar events to provide readiness, recovery, and sleep insights (not a medical diagnosis tool).
+  
 ### Education & Learning
 - **[TeachBetter.ai](https://teachbetter.ai)**: Comprehensive platform for teachers with more than 20 AI educational tools.
 - **[360Learning](https://360learning.com)**: Collaborative learning platform that uses AI to personalize upskilling.
