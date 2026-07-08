@@ -516,14 +516,15 @@ This is a comprehensive and organized collection of directories, tools, learning
 - **[Observable](https://observablehq.com/)** – Data visualization platform with AI-enhanced analysis and interactive notebook capabilities.
 
 ### MCP Server/Tools
-- **[MCP Server Finder](https://www.mcpserverfinder.com/servers)**: Discover and browse a wide range of MCP servers.
-- **[MCP So](https://mcp.so/)**: Platform for MCP server resources and community.
-- **[MCP Market](https://mcpmarket.com/)**: Marketplace for MCP-related tools and services.
-- **[Cursor MCP Directory](https://cursor.directory/mcp)**: Directory of MCP servers and tools curated by Cursor.
-- **[VSCode MCP Directory](https://code.visualstudio.com/mcp)**: Official VSCode directory for MCP servers and integrations.
 - **[Claude MCP Servers](https://www.claudemcp.com/servers)**: Claude's curated list of MCP servers.
-- **[PulseMCP Server Directory](https://www.pulsemcp.com/servers)**: Large, frequently updated directory of MCP servers, including trending, official, and community servers across many.
+- **[Cursor MCP Directory](https://cursor.directory/mcp)**: Directory of MCP servers and tools curated by Cursor.
+- **[MCP Market](https://mcpmarket.com)**: Marketplace for MCP-related tools and services.
+- **[MCP Server Finder](https://www.mcpserverfinder.com/servers)**: Discover and browse a wide range of MCP servers.
+- **[MCP So](https://mcp.so)**: Platform for MCP server resources and community.
 - **[MCPServers.Net](https://mcpservers.net/)**: Comprehensive MCP server navigation platform, featuring official and community servers, tutorials, and resources.
+- **[PulseMCP Server Directory](https://www.pulsemcp.com/servers)**: Large, frequently updated directory of MCP servers, including trending, official, and community servers across many.
+- **[VSCode MCP Directory](https://code.visualstudio.com/mcp)**: Official VSCode directory for MCP servers and integrations.
+- **[Xquik](https://xquik.com)**: MCP server and API for authenticated X data extraction and automation.
 
 ##  Text & Writing Tools
 
@@ -923,7 +924,7 @@ This is a comprehensive and organized collection of directories, tools, learning
 - **[Flourish Science](https://myflourish.ai)**: AI designed to improve daily wellness and happiness.
 - **[Calm (AI Features)](https://calm.com)**: Personalized meditation and sleep through recommendation algorithms.
 - **[Telo](https://blynkai.app/telo)**: AI wellness companion that reads Apple Health data and calendar events to provide readiness, recovery, and sleep insights (not a medical diagnosis tool).
-  
+
 ### Education & Learning
 - **[TeachBetter.ai](https://teachbetter.ai)**: Comprehensive platform for teachers with more than 20 AI educational tools.
 - **[360Learning](https://360learning.com)**: Collaborative learning platform that uses AI to personalize upskilling.
