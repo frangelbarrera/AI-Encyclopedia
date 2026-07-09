@@ -976,6 +976,7 @@ This is a comprehensive and organized collection of directories, tools, learning
 - **[Darrow AI](https://www.darrow.ai)**: Legal intelligence platform that discovers rights violations and legal cases.
 - **[Lexis+ AI](https://lexisnexis.com)**: Legal research tool with cited answers from legal databases.
 - **[Sirion](https://www.sirion.ai)**: Intelligent contract lifecycle management (CLM) for businesses.
+- **[PolicyAI](https://policy-ai-alpha.vercel.app)**: AI-powered generator for GDPR & CCPA compliant Privacy Policy, Terms of Service, and Cookie Policy. Creates legally-worded documents for websites in 60 seconds. Free tier, Pro $19/month.
 
 ### Space & Exploration
 - **[UP42](https://up42.com)**: Marketplace of satellite data and AI algorithms for geospatial analysis.
