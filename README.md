@@ -524,6 +524,7 @@ This is a comprehensive and organized collection of directories, tools, learning
 - **[Claude MCP Servers](https://www.claudemcp.com/servers)**: Claude's curated list of MCP servers.
 - **[PulseMCP Server Directory](https://www.pulsemcp.com/servers)**: Large, frequently updated directory of MCP servers, including trending, official, and community servers across many.
 - **[MCPServers.Net](https://mcpservers.net/)**: Comprehensive MCP server navigation platform, featuring official and community servers, tutorials, and resources.
+- **[RunAPI MCP Server](https://github.com/runapi-ai/mcp)**: MCP server for running image, video, music/audio, and other model API jobs through RunAPI.
 
 ##  Text & Writing Tools
 
