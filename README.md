@@ -948,6 +948,7 @@ This is a comprehensive and organized collection of directories, tools, learning
 ### AI Agents & Frameworks
 - **[AutoGPT](https://agpt.co)**: One of the first and most powerful open-source autonomous agents.
 - **[SuperAGI](https://superagi.com)**: Infrastructure to build, manage, and deploy AI agents.
+- **[Hermes](https://buildwithhermes.com)**: Operating platform for AI voice agencies with white-label client workspaces, CRM, and campaign orchestration.
 - **[n8n AI](https://n8n.io)**: Workflow automation with native AI nodes.
 - **[Dify](https://dify.ai)**: LLM App Development platform to easily create agents and RAG.
 - **[Manus](https://manus.im)**: The "Action Engine". A general agent capable of executing complex tasks, navigating, and automating complete workflows.
