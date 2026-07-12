@@ -927,6 +927,7 @@ This is a comprehensive and organized collection of directories, tools, learning
 ### Education & Learning
 - **[TeachBetter.ai](https://teachbetter.ai)**: Comprehensive platform for teachers with more than 20 AI educational tools.
 - **[360Learning](https://360learning.com)**: Collaborative learning platform that uses AI to personalize upskilling.
+- **[Cardify](https://blynkai.app/cardify)**: AI flashcard app that turns mistake questions into concept, weakness, and variant cards.
 - **[Khanmigo (Khan Academy)](https://khanacademy.org/khanmigo)**: Personalized AI tutor for students and assistant for teachers.
 
 ##  Models & Agents
