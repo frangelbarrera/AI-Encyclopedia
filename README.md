@@ -1,5 +1,13 @@
 # 🌌 Artificial Intelligence Universe 2026
 
+[![License: MIT](https://img.shields.io/github/license/frangelbarrera/Artificial-Intelligence-Universe?style=flat-square)](LICENSE)
+[![Stars](https://img.shields.io/github/stars/frangelbarrera/Artificial-Intelligence-Universe?style=flat-square)](https://github.com/frangelbarrera/Artificial-Intelligence-Universe/stargazers)
+[![Last Commit](https://img.shields.io/github/last-commit/frangelbarrera/Artificial-Intelligence-Universe?style=flat-square)](https://github.com/frangelbarrera/Artificial-Intelligence-Universe/commits)
+[![Issues](https://img.shields.io/github/issues/frangelbarrera/Artificial-Intelligence-Universe?style=flat-square)](https://github.com/frangelbarrera/Artificial-Intelligence-Universe/issues)
+[![Top Language](https://img.shields.io/github/languages/top/frangelbarrera/Artificial-Intelligence-Universe?style=flat-square)](https://github.com/frangelbarrera/Artificial-Intelligence-Universe)
+[![Contributors](https://img.shields.io/github/contributors/frangelbarrera/Artificial-Intelligence-Universe?style=flat-square)](https://github.com/frangelbarrera/Artificial-Intelligence-Universe/graphs/contributors)
+[![Repo Size](https://img.shields.io/github/repo-size/frangelbarrera/Artificial-Intelligence-Universe?style=flat-square)](https://github.com/frangelbarrera/Artificial-Intelligence-Universe)
+
 This is a comprehensive and organized collection of directories, tools, learning resources, and advanced AI applications. Designed for developers, researchers, entrepreneurs, and AI enthusiasts seeking the best solutions for their projects.
 
 ##  Repository Statistics
@@ -8,11 +16,6 @@ This is a comprehensive and organized collection of directories, tools, learning
 - **50+** specialized categories
 - **25+** free educational resources
 - Continuously updated with the latest innovations
-
-![GitHub stars](https://img.shields.io/github/stars/frangelbarrera/Artificial-Intelligence-Universe?style=for-the-badge&color=gold)
-![GitHub last commit](https://img.shields.io/github/last-commit/frangelbarrera/Artificial-Intelligence-Universe?style=for-the-badge&color=blue)
-![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=for-the-badge)
-![PR Validation](https://img.shields.io/github/actions/workflow/status/frangelbarrera/Artificial-Intelligence-Universe/validate-pr.yml?style=for-the-badge&label=PR%20Validation)
 
 ---
 
