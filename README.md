@@ -747,6 +747,7 @@ This is a comprehensive and organized collection of directories, tools, learning
 ##  Image & Design Tools
 
 ### Image Generation Models
+- **[STIL.AI Outfit Generator Widget](https://stil.gracestack.se/widget)** — Free embeddable AI fashion design widget. Drop one line of JavaScript into any website to let visitors generate AI-designed outfits from text prompts. No-code integration, watermark preview, Stripe checkout. [Open source CLI](https://github.com/cedendahlkim/outfit-gen) also available.
 - **[DALL·E 2](https://openai.com/dall-e-2)**: DALL·E 2 by OpenAI is a new AI system that can create realistic images and art from a description in natural language.
 - **[Stable Diffusion](https://huggingface.co/CompVis/stable-diffusion-v1-4)**: Stable Diffusion by Stability AI is a state-of-the-art text-to-image model that generates images from text.
 - **[Midjourney](https://www.midjourney.com/)**: Midjourney is an independent research lab exploring new mediums of thought and expanding the imaginative powers of the.
