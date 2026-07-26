@@ -547,6 +547,7 @@ This is a comprehensive and organized collection of directories, tools, learning
 - **[ChatGPT](https://chatgpt.com)**: ChatGPT by OpenAI is a large language model that interacts in a conversational way.
 - **[Bing Chat](https://www.bing.com/chat)**: A conversational AI language model powered by Microsoft Bing.
 - **[Gemini](https://gemini.google.com)**: An experimental AI chatbot by Google, powered by the LaMDA model.
+- **[Gpt](https://trygrokai.asia)**: Gpt is an AI tool for productivity, content workflows, research, and daily work.
 - **[Character.AI](https://character.ai/)**: Character.AI lets you create characters and chat to them.
 - **[ChatPDF](https://www.chatpdf.com/)**: Chat with any PDF.
 - **[ChatSonic](https://writesonic.com/chat)**: An AI-powered assistant that enables text and image creation.
