@@ -697,6 +697,7 @@ This is a comprehensive and organized collection of directories, tools, learning
 - **[Inline Help](https://inlinehelp.com)**: Answer customer questions before they ask.
 - **[Aidbase](https://www.aidbase.ai)**: AI-Powered Support for your SaaS startup.
 - **[Twig](https://www.twig.so/)**: Twig is an AI assistant that resolves customer issues instantly, supporting both users and support agents 24/7.
+- **[Workforce Wave](https://www.workforcewave.com)**: AI voice receptionist that answers business calls 24/7, books appointments, and captures leads.
 
 ### Other Text Generators
 - **[EmailTriager](https://www.emailtriager.com/)**: Use AI to automatically draft email replies in the background.
