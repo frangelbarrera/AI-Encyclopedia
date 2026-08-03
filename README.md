@@ -518,6 +518,7 @@ This is a comprehensive and organized collection of directories, tools, learning
 - **[Observable](https://observablehq.com/)** – Data visualization platform with AI-enhanced analysis and interactive notebook capabilities.
 
 ### MCP Server/Tools
+- **[ARNES](https://github.com/frangelbarrera/ARNES)**: MCP-compatible framework and server for running transparent, vendor-neutral agent workflows with markdown audit logs.
 - **[MCP Server Finder](https://www.mcpserverfinder.com/servers)**: Discover and browse a wide range of MCP servers.
 - **[MCP So](https://mcp.so/)**: Platform for MCP server resources and community.
 - **[MCP Market](https://mcpmarket.com/)**: Marketplace for MCP-related tools and services.
@@ -948,6 +949,7 @@ This is a comprehensive and organized collection of directories, tools, learning
 - **[Qwen 2.5](https://github.com/QwenLM/Qwen)**: Leader in programming and mathematics benchmarks in the open source world.
 
 ### AI Agents & Frameworks
+- **[ARNES](https://github.com/frangelbarrera/ARNES)**: Open-source agent harness that compiles YAML manuals into auditable specialist workflows with budget controls, local-first defaults, and MCP support.
 - **[AutoGPT](https://agpt.co)**: One of the first and most powerful open-source autonomous agents.
 - **[SuperAGI](https://superagi.com)**: Infrastructure to build, manage, and deploy AI agents.
 - **[Hermes](https://buildwithhermes.com)**: Operating platform for AI voice agencies with white-label client workspaces, CRM, and campaign orchestration.
