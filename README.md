@@ -193,6 +193,7 @@ This is a comprehensive and organized collection of directories, tools, learning
 - **[AI Scout](https://aiscout.net/)** : AI Tools Directory
 - **[AI Search Visibility & Optimization Tools](https://www.aeotools.space)** : Directory of AI Search Visibility & Optimization Tools
 - **[AI Sites Net](https://ai-sites.net/)** : Chinese AI Tools Directory
+- **[AISOTools](https://aisotools.com)**: Directory of AI tools with search, comparison, and AI-search visibility monitoring for makers.
 - **[AI Tools Arena](https://aitoolsarena.com/)** : Your Ultimate Resource for AI Tools and Insights
 - **[AI Tools Corner](https://aitoolscorner.com/)** : Collection of best AI Tools,
 - **[AI Tools Directory](https://aidirectory.wiki/)** : Curated list of AI tools
