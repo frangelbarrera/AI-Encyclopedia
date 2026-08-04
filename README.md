@@ -18,14 +18,19 @@ This is a comprehensive and organized collection of directories, tools, learning
 
 ---
 
-### 🌟 EDITOR'S CHOICE (Top 5 Must-Haves)
-*Short on time? Start here:*
+### 🏆 FRONTIER LLM BENCHMARK — Top 10 Most Powerful Models (Updated Weekly)
+*The strongest language models available right now, ranked by composite performance across SWE-bench Verified, GPQA Diamond, MMLU Pro, AIME 2026 and LMArena. Last updated: August 4, 2026.*
 
-1. 🚀 **[ChatGPT](https://chatgpt.com)** - The gold standard for conversation and assistance.
-2. 🎨 **[Midjourney](https://www.midjourney.com)** - The most powerful AI image generation tool.
-3. 💻 **[Cursor](https://cursor.sh)** - The AI-powered code editor revolutionizing software development.
-4. 🔍 **[Perplexity](https://www.perplexity.ai)** - The search engine that actually understands your questions.
-5. 🎙️ **[ElevenLabs](https://elevenlabs.io)** - Industry-leading AI voice synthesis and cloning.
+1. 🥇 **[Claude Opus 5](https://www.anthropic.com/news/claude-opus-5)** — Anthropic's flagship since July 24, 2026; leads the Artificial Analysis Intelligence Index (60.7) and SWE-bench Verified (97%), with a record 30.2% on ARC-AGI-3, at $5/$25 per 1M tokens.
+2. 🥈 **[Claude Fable 5](https://www.anthropic.com/news/claude-fable-5-mythos-5)** — Anthropic's Mythos-class model released June 9, 2026; #1 published score on SWE-bench Pro (80.3%) and #2 on AAII (59.9), priced at $10/$50 per 1M tokens.
+3. 🥉 **[GPT-5.6 Sol](https://openai.com/index/gpt-5-6)** — OpenAI's flagship tier since July 9, 2026; #1 on the Artificial Analysis Coding Agent Index (80) and Agents' Last Exam (53.6), with 94.6% GPQA Diamond and 96.2% SWE-bench Verified.
+4. **[Kimi K3](https://www.moonshot.ai)** — Moonshot AI's 2.8-trillion-parameter open-weight model released July 16, 2026; the largest open weights ever shipped, #4 on AAII (57.1) and 93.4% on SWE-bench Verified.
+5. **[Claude Opus 4.8](https://www.anthropic.com/news/claude-opus-4-8)** — Anthropic's previous flagship released May 28, 2026; still #6 on BenchLM (77.38) with 88.6% SWE-bench Verified and 69.2% SWE-bench Pro, at $5/$25.
+6. **[Grok 4.5](https://x.ai/news/grok-4-5)** — xAI's smartest released model (July 8, 2026), first co-trained with Cursor; #1 on WebDev Arena at launch (Elo 1566) with 86.6% SWE-bench Verified and 64.7% SWE-bench Pro.
+7. **[Gemini 3.6 Flash](https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-3-6-flash-3-5-flash-lite-3-5-flash-cyber)** — Google DeepMind's latest GA Gemini (July 21, 2026); #10 on BenchLM (75.17) with a 17% output-token reduction vs 3.5 Flash and up to 65% agent cost reduction on long-horizon tasks.
+8. **[Qwen3.7 Max](https://www.alibabacloud.com/blog/qwen3-7-the-agent-frontier_603154)** — Alibaba's flagship released May 20, 2026; #1 globally on MMLU Pro (89.6%) and the highest-ranked Chinese model ever on AAII (56.6), with 92.4% GPQA Diamond and 1M-token context.
+9. **[GPT-5.6 Terra](https://openai.com/index/gpt-5-6)** — OpenAI's balanced tier of the GPT-5.6 family (July 9, 2026); AAII 55 with 92.9% GPQA Diamond and #3 on the AA Coding Agent Index (76.7), at roughly half the cost of Sol.
+10. **[GPT-5.5](https://openai.com/index/gpt-5-5)** — OpenAI's previous flagship released April 23, 2026; still #12 on BenchLM (72.01) with a perfect 100% on AIME 2025, 93.6% GPQA Diamond and 88.7% SWE-bench Verified.
 
 ---
 
