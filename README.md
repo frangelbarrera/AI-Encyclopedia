@@ -563,6 +563,8 @@ This is a comprehensive and organized collection of directories, tools, learning
 - **[DeepSeek-R1](https://www.deepseek.com)**: A versatile AI assistant by DeepSeek, designed for conversational interactions, code generation, and creative tasks.
 - **[dmwithme](https://dmwithme.com)**: AI companion with realistic emotions that can disagree, get moody, and challenge you.
 
+- **[Fortuneteller.Today](https://www.fortuneteller.today)**: AI assistant for tarot, astrology, numerology, BaZi, and rune readings.
+
 ### Search & Research Tools
 - **[Kazimir.ai](https://kazimir.ai/)**: A search engine designed to search AI-generated images.
 - **[Perplexity AI](https://www.perplexity.ai/)**: AI powered search tools.
