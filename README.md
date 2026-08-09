@@ -888,6 +888,7 @@ This is a comprehensive and organized collection of directories, tools, learning
 - **[Mutiny](https://www.mutinyhq.com/)**: Personalization platform to improve website conversions using AI.
 - **[Clearbit](https://clearbit.com/)**: Lead enrichment and data intelligence platform.
 - **[Seventh Sense](https://www.theseventhsense.com/)**: AI tool for email send time optimization.
+- **[Autoposting](https://autoposting.ai)**: AI social media manager that writes posts in your brand voice, clips video, and schedules to five networks.
 - **[Smartly.io](https://www.smartly.io/)**: Automates social media ad creation and optimization.
 - **[Adzooma](https://www.adzooma.com/)**: AI-powered PPC campaign management platform.
 - **[Phrasee](https://www.phrasee.co/)**: AI tool that generates optimized marketing copy.
