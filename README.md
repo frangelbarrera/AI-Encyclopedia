@@ -901,6 +901,7 @@ This is a comprehensive and organized collection of directories, tools, learning
 - **[Publish7](https://publish7.com/)**: AI Agents to revolutionize digital marketing for Retail and E-commerce success.
 - **[Keyla.AI](https://keyla.ai/)**: Create video ads in minutes.
 - **[OpusClip](https://opus.pro)**: Automatically converts long videos into viral shorts.
+- **[OutreachAgent](https://outreachagent.dev)**: API for AI agents to run reply-aware cold email workflows with inboxes, sequences, deliverability, and webhooks.
 - **[Buffer AI](https://buffer.com)**: Assistant for drafting and scheduling social media content.
 - **[Canva Magic Studio](https://canva.com)**: Complete AI-powered design suite.
 - **[InVideo AI](https://invideo.io)**: Create social media videos from a simple script.
