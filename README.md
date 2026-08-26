@@ -516,6 +516,7 @@ This is a comprehensive and organized collection of directories, tools, learning
 - **[Supabase AI](https://supabase.com/ai)**: AI features for database schema generation, query optimization, and API development assistance.
 - **[Hasura](https://hasura.io/)**: GraphQL API platform with AI-powered query optimization and schema management.
 - **[Retool AI](https://retool.com/ai)**: AI-powered internal tool builder with natural language interface for creating business applications.
+- **[_done](https://underscoredone.com)**: Pay-per-use REST APIs for AI agents covering lookups, OCR, SEO, and HTTP utilities without API keys.
 
 ### MLOps & Specialized Tools
 - **[Weights & Biases](https://wandb.ai/)** – MLOps platform with AI model management, experiment tracking, and automated hyperparameter optimization.
