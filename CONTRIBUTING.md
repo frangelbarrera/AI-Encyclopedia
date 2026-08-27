@@ -12,6 +12,7 @@ Thank you for your interest in contributing! This guide will help you get starte
 - [What We Accept](#what-we-accept)
 - [What We Do NOT Accept](#what-we-do-not-accept)
 - [Entry Format Specification](#entry-format-specification)
+- [Catalog Maintenance](docs/MAINTENANCE.md)
 - [Step-by-Step: Adding a New Tool](#step-by-step-adding-a-new-tool)
 - [Line Endings (CRITICAL)](#line-endings-critical)
 - [Other Ways to Contribute](#other-ways-to-contribute)
@@ -54,6 +55,8 @@ All contributors are expected to follow our [Code of Conduct](CODE_OF_CONDUCT.md
 ❌ **Vaporware and "coming soon" pages** — The tool must be publicly available and usable. Wait-lists, private betas, and landing pages with no product do not qualify.
 
 ❌ **Link-farming patterns** — Opening the same PR across 5 or more awesome-* repos in the same week will be flagged as spam and rejected.
+
+❌ **SEO submissions and link schemes** — Listings whose primary value is a backlink, referral placement, or dofollow mention do not qualify.
 
 ❌ **Marketing copy in descriptions** — Descriptions must be factual and neutral. Avoid phrases like "revolutionary," "best-in-class," "unmatched," or "game-changing."
 
@@ -110,6 +113,12 @@ Every new tool entry must follow this exact format:
 
 ---
 
+## Catalog Maintenance
+
+For routine link reviews, model-snapshot updates, and release checks, follow the [catalog maintenance guide](docs/MAINTENANCE.md).
+
+---
+
 ## Step-by-Step: Adding a New Tool
 
 ### 1. Search first
@@ -131,8 +140,10 @@ Insert the tool in alphabetical order within the chosen section, using the [exac
 
 ### 5. Verify before committing
 - ✅ URL returns HTTP 200 (the tool's website loads)
+- ✅ Destination is an official product, documentation, or repository URL
 - ✅ The tool is AI-powered
 - ✅ Not a duplicate of an existing entry
+- ✅ The listing does not promote backlinks, referral placements, or dofollow links
 - ✅ Format matches the spec exactly
 
 ### 6. Commit

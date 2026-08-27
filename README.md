@@ -7,30 +7,28 @@
 [![Contributors](https://img.shields.io/github/contributors/frangelbarrera/Artificial-Intelligence-Universe?style=flat-square)](https://github.com/frangelbarrera/Artificial-Intelligence-Universe/graphs/contributors)
 [![Repo Size](https://img.shields.io/github/repo-size/frangelbarrera/Artificial-Intelligence-Universe?style=flat-square)](https://github.com/frangelbarrera/Artificial-Intelligence-Universe)
 
-This is a comprehensive and organized collection of directories, tools, learning resources, and advanced AI applications. Designed for developers, researchers, entrepreneurs, and AI enthusiasts seeking the best solutions for their projects.
+A curated directory of AI tools, agents, large language models, MCP servers, and learning resources for developers, researchers, and builders.
 
-##  Repository Statistics
-- **800+** tools and resources cataloged
-- **130+** AI directories organized
-- **50+** specialized categories
-- **25+** free educational resources
-- Continuously updated with the latest innovations
+## Repository Statistics
+- **700+** curated AI tools, agents, models, and learning resources
+- **120+** AI directories and discovery resources
+- **12** core sections and **70+** focused subsections
+- Community contributions reviewed against documented curation standards
 
 ---
 
-### 🏆 FRONTIER LLM BENCHMARK — Top 10 Most Powerful Models (Updated Weekly)
-*The strongest language models available right now, ranked by composite performance across SWE-bench Verified, GPQA Diamond, MMLU Pro, AIME 2026 and LMArena. Last updated: August 4, 2026.*
+### Frontier model snapshot — sources verified 2026-08-26
 
-1. 🥇 **[Claude Opus 5](https://www.anthropic.com/news/claude-opus-5)** — Anthropic's flagship since July 24, 2026; leads the Artificial Analysis Intelligence Index (60.7) and SWE-bench Verified (97%), with a record 30.2% on ARC-AGI-3, at $5/$25 per 1M tokens.
-2. 🥈 **[Claude Fable 5](https://www.anthropic.com/news/claude-fable-5-mythos-5)** — Anthropic's Mythos-class model released June 9, 2026; #1 published score on SWE-bench Pro (80.3%) and #2 on AAII (59.9), priced at $10/$50 per 1M tokens.
-3. 🥉 **[GPT-5.6 Sol](https://openai.com/index/gpt-5-6)** — OpenAI's flagship tier since July 9, 2026; #1 on the Artificial Analysis Coding Agent Index (80) and Agents' Last Exam (53.6), with 94.6% GPQA Diamond and 96.2% SWE-bench Verified.
-4. **[Kimi K3](https://www.moonshot.ai)** — Moonshot AI's 2.8-trillion-parameter open-weight model released July 16, 2026; the largest open weights ever shipped, #4 on AAII (57.1) and 93.4% on SWE-bench Verified.
-5. **[Claude Opus 4.8](https://www.anthropic.com/news/claude-opus-4-8)** — Anthropic's previous flagship released May 28, 2026; still #6 on BenchLM (77.38) with 88.6% SWE-bench Verified and 69.2% SWE-bench Pro, at $5/$25.
-6. **[Grok 4.5](https://x.ai/news/grok-4-5)** — xAI's smartest released model (July 8, 2026), first co-trained with Cursor; #1 on WebDev Arena at launch (Elo 1566) with 86.6% SWE-bench Verified and 64.7% SWE-bench Pro.
-7. **[Gemini 3.6 Flash](https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-3-6-flash-3-5-flash-lite-3-5-flash-cyber)** — Google DeepMind's latest GA Gemini (July 21, 2026); #10 on BenchLM (75.17) with a 17% output-token reduction vs 3.5 Flash and up to 65% agent cost reduction on long-horizon tasks.
-8. **[Qwen3.7 Max](https://www.alibabacloud.com/blog/qwen3-7-the-agent-frontier_603154)** — Alibaba's flagship released May 20, 2026; #1 globally on MMLU Pro (89.6%) and the highest-ranked Chinese model ever on AAII (56.6), with 92.4% GPQA Diamond and 1M-token context.
-9. **[GPT-5.6 Terra](https://openai.com/index/gpt-5-6)** — OpenAI's balanced tier of the GPT-5.6 family (July 9, 2026); AAII 55 with 92.9% GPQA Diamond and #3 on the AA Coding Agent Index (76.7), at roughly half the cost of Sol.
-10. **[GPT-5.5](https://openai.com/index/gpt-5-5)** — OpenAI's previous flagship released April 23, 2026; still #12 on BenchLM (72.01) with a perfect 100% on AIME 2025, 93.6% GPQA Diamond and 88.7% SWE-bench Verified.
+> Selected current releases, not a universal ranking. Model availability, pricing, and evaluation methods differ by provider. Follow each primary source for the latest details.
+
+| Model | Provider | Current signal | Primary source |
+|---|---|---|---|
+| Claude Opus 5 | Anthropic | Long-horizon agentic coding and knowledge work. | [Announcement](https://www.anthropic.com/news/claude-opus-5) |
+| GPT-5.6 Sol | OpenAI | Coding, knowledge work, and tool-heavy workflows. | [Announcement](https://openai.com/index/gpt-5-6/) |
+| Gemini 3.6 Flash | Google | Token-efficient agentic and multimodal workloads. | [Announcement](https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-3-6-flash-3-5-flash-lite-3-5-flash-cyber/) |
+| Kimi K3 | Moonshot AI | Long-context multimodal coding and reasoning. | [Research note](https://www.kimi.ai/blog/kimi-k3) |
+
+For cross-provider comparisons, consult independent benchmark methodologies in addition to provider announcements.
 
 ---
 
@@ -97,6 +95,7 @@ This is a comprehensive and organized collection of directories, tools, learning
 ###  Models & Agents Subsections
 [<kbd>📖 Open Source Models</kbd>](#open-source-models) &nbsp;
 [<kbd>🤖 AI Agents & Frameworks</kbd>](#ai-agents--frameworks) &nbsp;
+[<kbd>📊 Agent Evaluation & Observability</kbd>](#agent-evaluation--observability) &nbsp;
 [<kbd>🏠 Local & Private AI</kbd>](#local--private-ai)
 
 ###  Frontiers & Vanguard Subsections
@@ -112,8 +111,7 @@ This is a comprehensive and organized collection of directories, tools, learning
 
 ###  AI Directories & Resources
 - [AI Directories by Category](#ai-directories-by-category) - Curated directories for finding AI tools
-- [Learning Resources](#learning-resources) - Free courses, books, and educational materials
-- [Communities & Forums](#communities--forums) - Connect with the AI community
+- [Education & Learning](#education--learning) - Courses, tutoring, and learning resources
 
 ###  Development & Coding Tools
 - [AI Code Assistants & Editors](#ai-code-assistants--editors) - Intelligent coding companions
@@ -138,13 +136,13 @@ This is a comprehensive and organized collection of directories, tools, learning
 - [Image Generation Models](#image-generation-models) - AI-powered visual creation
 - [Image Editing & Enhancement](#image-editing--enhancement) - Professional photo manipulation
 - [Graphic Design Tools](#graphic-design-tools) - Creative design automation
-- [UI/UX Design Tools](#uiux-design-tools) - Interface and user experience design
+- [Graphic Design & UI Tools](#graphic-design-tools) - Interface, visual, and creative design tools
 
 ###  Audio & Video Tools
 - [Audio Generation & Editing](#audio-generation--editing) - Music and sound creation
 - [Voice Cloning & Synthesis](#voice-cloning--synthesis) - Realistic voice generation
 - [Video Creation & Editing](#video-creation--editing) - Cinematic content production
-- [Multimedia Processing](#multimedia-processing) - Comprehensive media tools
+- [Audio & Video Overview](#audio--video-tools) - Comprehensive media creation tools
 
 ###  Industry-Specific Tools
 - [Marketing & Sales](#marketing--sales) - Business growth and customer acquisition
@@ -153,12 +151,12 @@ This is a comprehensive and organized collection of directories, tools, learning
 - [Journalism & Content](#journalism--content) - Media and publishing tools
 - [Healthcare & Wellness](#healthcare--wellness) - Medical and personal health applications
 - [Education & Learning](#education--learning) - Adaptive learning platforms
-- [Finance & Trading](#finance--trading) - Financial analysis and automation
 
 ###  Models & Agents
 - [Proprietary Models](#proprietary-models) - Commercial AI models and platforms
 - [Open Source Models](#open-source-models) - Free and accessible AI models
-- [AI Agents & Frameworks](#ai-agents--frameworks) - Autonomous AI systems
+- [AI Agents & Frameworks](#ai-agents--frameworks) - Frameworks and platforms for agentic systems
+- [Agent Evaluation & Observability](#agent-evaluation--observability) - Testing, tracing, and monitoring for AI systems
 - [Local & Private AI](#local--private-ai) - Privacy-focused AI solutions
 
 ###  Frontiers & Vanguard
@@ -172,149 +170,144 @@ This is a comprehensive and organized collection of directories, tools, learning
 ##  AI Directories by Category
 
 ### General AI Directories
-- **[Altern](https://altern.ai)** : Find almost anything related to AI
-- **[AI Tools Submit](https://submitaitools.org/submit-your-ai-tool/)** : Submit your AI tools
-- **[Awesome AI Tools](https://github.com/mahseema/awesome-ai-tools)** : A curated list of Artificial Intelligence Top Tools
-- **[AIDir](https://aidir.wiki)** : The first AI Directory of the world, Since 2022!
-- **[AI Directory](https://aidirectory.wiki)** : Curated collection of AI-powered tools for productivity, creativity, and business.
-- **[AiDirs](https://aidirs.best)** : Discover and Share the Best AI Tools
-- **[AI For Developers](https://aifordevelopers.org)** : A curated list of AI DevTools
-- **[ainave](https://www.ainave.com)** : Navigate the world of AI with ease!
-- **[AI Agent Store](https://aiagentstore.ai/)** : Compare AI agents, agent development platforms and agentic frameworks.
-- **[AI Agents Live](https://aiagentslive.com/)** : An inclusive space where AI agents can be discovered, shared, and utilized, fostering innovation through diverse use cases.
-- **[AI Agents Marketplace](https://trillionagent.com/)** : A marketplace of AI agents, natural language searchable by task or use case. Categorized according to over 300 human role equivalents.
-- **[AI Hubs](https://aihubs.ai/)** : The best AI tools directory to help you find the latest and most powerful AI applications.
-- **[AI Library](https://www.theailibrary.co/)** : A powerful AI Tools Directory with 500+ tools for every need, from productivity to creativity.
-- **[AiMatchPro](https://aimatch.pro/)** -Directory making it easy to find an ai tool for your specific usecase by matching a stack of tools with a search query.
-- **[AI PEDIA HUB](https://aipediahub.com/)** : THE LARGEST AI TOOLS DIRECTORY, UPDATED DAILY.
-- **[AI Pulse](https://www.aipulse.fyi)** : Your trusted source for in-depth reviews of the latest AI tools and technologies.
-- **[AI Resource Pro](https://airesource.pro)** : Create your AI learning roadmap or explore our curated collection of top AI tools, news, and resources.
-- **[AI Respo](https://airespo.com)** : Find AI tools and learning resources.
-- **[AI Scout](https://aiscout.net/)** : AI Tools Directory
-- **[AI Search Visibility & Optimization Tools](https://www.aeotools.space)** : Directory of AI Search Visibility & Optimization Tools
-- **[AI Sites Net](https://ai-sites.net/)** : Chinese AI Tools Directory
+- **[Altern](https://altern.ai)**: Find almost anything related to AI
+- **[AI Tools Submit](https://submitaitools.org/submit-your-ai-tool/)**: Submit your AI tools
+- **[Awesome AI Tools](https://github.com/mahseema/awesome-ai-tools)**: A curated list of Artificial Intelligence Top Tools
+- **[AIDir](https://aidir.wiki)**: The first AI Directory of the world, Since 2022!
+- **[AI Directory](https://aidirectory.wiki)**: Curated collection of AI-powered tools for productivity, creativity, and business.
+- **[AiDirs](https://aidirs.best)**: Discover and Share the Best AI Tools
+- **[AI For Developers](https://aifordevelopers.org)**: A curated list of AI DevTools
+- **[ainave](https://www.ainave.com)**: Navigate the world of AI with ease!
+- **[AI Agent Store](https://aiagentstore.ai/)**: Compare AI agents, agent development platforms and agentic frameworks.
+- **[AI Agents Live](https://aiagentslive.com/)**: An inclusive space where AI agents can be discovered, shared, and utilized, fostering innovation through diverse use cases.
+- **[AI Agents Marketplace](https://trillionagent.com/)**: A marketplace of AI agents, natural language searchable by task or use case. Categorized according to over 300 human role equivalents.
+- **[AI Hubs](https://aihubs.ai/)**: The best AI tools directory to help you find the latest and most powerful AI applications.
+- **[AI Library](https://www.theailibrary.co/)**: A powerful AI Tools Directory with 500+ tools for every need, from productivity to creativity.
+- **[AiMatchPro](https://aimatch.pro/)**: Directory making it easy to find an ai tool for your specific usecase by matching a stack of tools with a search query.
+- **[AI PEDIA HUB](https://aipediahub.com/)**: THE LARGEST AI TOOLS DIRECTORY, UPDATED DAILY.
+- **[AI Pulse](https://www.aipulse.fyi)**: Your trusted source for in-depth reviews of the latest AI tools and technologies.
+- **[AI Resource Pro](https://airesource.pro)**: Create your AI learning roadmap or explore our curated collection of top AI tools, news, and resources.
+- **[AI Respo](https://airespo.com)**: Find AI tools and learning resources.
+- **[AI Scout](https://aiscout.net/)**: AI Tools Directory
+- **[AI Search Visibility & Optimization Tools](https://www.aeotools.space)**: Directory of AI Search Visibility & Optimization Tools
+- **[AI Sites Net](https://ai-sites.net/)**: Chinese AI Tools Directory
 - **[AISOTools](https://aisotools.com)**: Directory of AI tools with search, comparison, and AI-search visibility monitoring for makers.
-- **[AI Tools Arena](https://aitoolsarena.com/)** : Your Ultimate Resource for AI Tools and Insights
-- **[AI Tools Corner](https://aitoolscorner.com/)** : Collection of best AI Tools,
-- **[AI Tools Directory](https://aidirectory.wiki/)** : Curated list of AI tools
-- **[AISuperSmart](https://www.aisupersmart.com/ai-tools-directory/)** : 1500+ Ai Tools Which Update's Daily And Provide Ai News to World
-- **[AI-Tools Directory](https://ai-tools.directory)** : A directory of AI tools curated by AI itself
-- **[AI Tools Guru](https://aitoolguru.com/)** : THE LARGEST AI TOOLS DIRECTORY
-- **[AI Tools List](https://aitoolslist.io/)** : Best AI Tools Rated
-- **[AI Tools Marketer](https://aitoolsmarketer.com/)** : Unlock the Power of AI: Discover, Learn, Compare, and Optimize with the Ultimate AI Tools Directory.
-- **[AI Top Tools](https://aitoptools.com/)** : The place to go for AI Tools
-- **[AI Tools Magazine](https://aitoolsmagazine.com/)** : Find the Best AI Tools & Increase Your Productivity by 10x
-- **[ALL AI TOOLS .TECH DIRECTORY](https://allaitools.tech/)** : Best AI Tools Directory, Find and Compare Tools, Powered by AI Recommendation System
-- **[All Things AI](https://allthingsai.com/)** : The Curated Resource of AI Tools
-- **[aitools.inc](https://aitools.inc)** : Discover tools to free up your time and 10x your output.
-- **[AI Tool Trek](https://aitooltrek.com/)** : Curated list of latestnet AI tools & AI News.
-- **[All The AI Tools](https://alltheaitools.com/)** : Explore our comprehensive AI Tools Directory. Find, compare, and choose the best AI tools for your needs.
-- **[AI Tools Explore](https://aiex.me/)** : Curated tools and insights to elevate your AI-driven projects.
-- **[AI Tools For Me](https://aitoolsforme.com/)** : Growing AI Directory Tools.
-- **[AI Tool List](https://www.aitoollist.org)** : An awesome directory of AI tools
-- **[AI Journey] (https://aijourney.so)** - offers expert reviews and insights on AI tools to help individuals and businesses succeed by leveraging the best AI technology.
-- **[AiToolz](https://aitoolz.net)**Find useful AI tools.
-- **[AI Toolz Dir](https://www.aitoolzdir.com)** : Submit your AI Tool to aitoolzdir and get a DR 27 Backlink for free
-- **[AI Parabellum](https://aiparabellum.com)** : Find Tomorrow's AI Tools Today
-- **[AI Agents Base](https://aiagentsbase.com)** : Your All-in-One AI Agents Directory
-- **[AI Agents List](https://aiagentslist.com/)** : Discover and compare the best AI agents for your needs.
-- **[AI Agents Directory](https://aiagentsdirectory.com/)** : Specialized directory for AI Agents and Frameworks, UPDATED DAILY
-- **[AI Agents Verse](https://aiagentsverse.com/)** : Discover the best AI Agents in our AI Agents Directory.
-- **[Add AI Directory](https://addaidirectory.com/)** : An online platform that catalogs and categorizes AI agents and tools. Users can easily discover, compare, and select AI solutions, while businesses can advertise featured AI agents.
-- **[AgentHunter](https://www.agenthunter.io/)** : Discover the Best AI Agents in One Place.
-- **[Aixyz](https://www.aixyz.co)** : Discover 1,500+ AI tools with smart filters, comparisons, and curated collections.
-- **[AI Tools Saver](https://www.aitoolsaver.com/)** : Your Favorite AI Tools with Discounts
-- **[AIChief](https://aichief.com)** : #1 AI Tools Directory created exclusively for businesses, AI explorers, and curious minds alike!
-- **[Ask AI For It](https://askaiforit.com)** : AI Tools and SaaS Directory to boost your productivity at work and in life.
+- **[AI Tools Arena](https://aitoolsarena.com/)**: Your Ultimate Resource for AI Tools and Insights
+- **[AI Tools Corner](https://aitoolscorner.com/)**: Collection of best AI Tools,
+- **[AI Tools Directory](https://aidirectory.wiki/)**: Curated list of AI tools
+- **[AISuperSmart](https://www.aisupersmart.com/ai-tools-directory/)**: 1500+ Ai Tools Which Update's Daily And Provide Ai News to World
+- **[AI-Tools Directory](https://ai-tools.directory)**: A directory of AI tools curated by AI itself
+- **[AI Tools Guru](https://aitoolguru.com/)**: THE LARGEST AI TOOLS DIRECTORY
+- **[AI Tools List](https://aitoolslist.io/)**: Best AI Tools Rated
+- **[AI Tools Marketer](https://aitoolsmarketer.com/)**: Unlock the Power of AI: Discover, Learn, Compare, and Optimize with the Ultimate AI Tools Directory.
+- **[AI Top Tools](https://aitoptools.com/)**: The place to go for AI Tools
+- **[AI Tools Magazine](https://aitoolsmagazine.com/)**: Find the Best AI Tools & Increase Your Productivity by 10x
+- **[ALL AI TOOLS .TECH DIRECTORY](https://allaitools.tech/)**: Best AI Tools Directory, Find and Compare Tools, Powered by AI Recommendation System
+- **[All Things AI](https://allthingsai.com/)**: The Curated Resource of AI Tools
+- **[aitools.inc](https://aitools.inc)**: Discover tools to free up your time and 10x your output.
+- **[AI Tool Trek](https://aitooltrek.com/)**: Curated list of latestnet AI tools & AI News.
+- **[All The AI Tools](https://alltheaitools.com/)**: Explore our comprehensive AI Tools Directory. Find, compare, and choose the best AI tools for your needs.
+- **[AI Tools Explore](https://aiex.me/)**: Curated tools and insights to elevate your AI-driven projects.
+- **[AI Tools For Me](https://aitoolsforme.com/)**: Growing AI Directory Tools.
+- **[AI Tool List](https://www.aitoollist.org)**: An awesome directory of AI tools
+- **[AI Journey](https://aijourney.so)**: Directory with editorial reviews and discovery guides for AI tools.
+- **[AiToolz](https://aitoolz.net)**: Directory for discovering AI tools.
+- **[AI Parabellum](https://aiparabellum.com)**: Find Tomorrow's AI Tools Today
+- **[AI Agents List](https://aiagentslist.com/)**: Discover and compare the best AI agents for your needs.
+- **[AI Agents Directory](https://aiagentsdirectory.com/)**: Specialized directory for AI Agents and Frameworks, UPDATED DAILY
+- **[AI Agents Verse](https://aiagentsverse.com/)**: Discover the best AI Agents in our AI Agents Directory.
+- **[Add AI Directory](https://addaidirectory.com/)**: An online platform that catalogs and categorizes AI agents and tools. Users can easily discover, compare, and select AI solutions, while businesses can advertise featured AI agents.
+- **[AgentHunter](https://www.agenthunter.io/)**: Discover the Best AI Agents in One Place.
+- **[Aixyz](https://www.aixyz.co)**: Discover 1,500+ AI tools with smart filters, comparisons, and curated collections.
+- **[AI Tools Saver](https://www.aitoolsaver.com/)**: Your Favorite AI Tools with Discounts
+- **[AIChief](https://aichief.com)**: #1 AI Tools Directory created exclusively for businesses, AI explorers, and curious minds alike!
+- **[Ask AI For It](https://askaiforit.com)**: AI Tools and SaaS Directory to boost your productivity at work and in life.
 
 ### Specialized Directories
-- **[Best of AI](https://bestofai.io)** : List of just best AI Tools
-- **[Based Tools](https://www.basedtools.ai/)** : The most Based AI Directory.
-- **[Best AI Tools org](https://www.best-ai-tools.org/)** : Find & Learn AI Tools with AI ChatBot + free Academy
-- **[Best of Web](https://www.bestofweb.site)** – Startup and founder directory. Easy and fast to submit, includes a free dofollow backlink.
-- **[Beyond AI Tools](https://www.beyondaitools.com/)** : AI tools, solutions, best practices, and more — all with multilingual support, aiming to foster AI adoption across the globe.
-- **[Byblos AI](https://byblosai.com/)** : Find AI tools and software using an AI search
-- **[BuildVoyage](https://buildvoyage.com/)** : A micro-saas directory for AI projects where the journey is what matters!
-- **[ClaudePro.directory](https://claudepro.directory/)** : The unofficial home for Claude enthusiasts. Explore expert rules, browse powerful MCP servers, find specialized agents and commands, discover automation hooks, and connect with the community building the future of AI.
-- **[Cloudbooklet AI](https://www.cloudbooklet.net/)** : Cloudbooklet AI Tools.
-- **[CogList AI](https://coglist.com/)** : AI Agents/Tools Directory and List for Indie Hackers in Project Building.
-- **[DataLook.io](https://datalook.io/)** : Discover the best AI tools, data science resources, and the latest insights in artificial intelligence.
-- **[Dynamite AI](https://www.dynamite-ai.com/)** : Yet another (FREE) AI Tools Directory.
-- **[Dessign](https://dessign.net/)** : AI Tools Directory.
-- **[Desifounder](https://desifounder.com/spotlight)** : Discover AI Projects & Tools.
-- **[Dofollow.Tools](https://dofollow.tools)** : Submit on Dofollow.Tools and get dofollow backlinks
-- **[EliteAI Tools](https://eliteai.tools)** : AI tools directory, exclusively featuring high-quality AI tools
-- **[EveryDev.ai](https://www.everydev.ai)** : The largest developer curated AI tools directory and social network
-- **[Evolmagazine.com](https://www.evolmagazine.com/en/tools/)** : Find, compare, and integrate the best AI and productivity tools
-- **[Expify](https://www.expify.ai)** : Biggest AI tools directory in the planet.
-- **[Find An AI Tools](https://findanaitools.com)** : No 1 AI Aggregator
-- **[Findyouragent.ai](https://findyouragent.ai/)** : A curated AI Agent Directory & Search Platform
-- **[Find my AI Tool](https://findmyaitool.com/)** : Discover AI Tools for Your Business.
-- **[Foundr](https://foundr.ai/)** : Discover The Best AI Tools at Your Fingertips
-- **[Free AI Tool](https://freeaitool.ai/)** : List of Best & Latest Free AI Tools in 2024
-- **[Futurepedia Wiki](https://futurepedia.wiki)** : Find the best futuristic tools
-- **[FUTUREPEDIA](https://www.futurepedia.io/)** : THE LARGEST AI TOOLS DIRECTORY, UPDATED DAILY
-- **[FutureTools](https://www.futuretools.io/)** : Collects & Organizes All The Best AI Tools So YOU Too Can Become Superhuman!
-- **[flowtools](https://www.flowtools.co)** : Your first stop for smart AI tool decisions
-- **[FastLaunch](https://fastlaunch.io/)** : FastLaunch - Launch & Discover Amazing Products
-- **[Grabon AI Directory](https://www.grabon.in/indulge/ai-tools/)** : The World's Best & Largest Directory Of AI Tools
-- **[God of Prompt](https://godofprompt.ai/best-ai-tools/)** : 1000+ Best AI Tools for Marketing & Business
-- **[GroupifyAI](https://groupify.ai/)** : Explore, Compare & Review Best Trending AI tools & AI courses on the top AI platform.
-- **[Havnai](https://havnai.com/)** : The world's first AI tool directory offering 60-second video intros for each tool and one-click AI tool lists by industry name.
-- **[HeyAIworld](https://heyaiworld.com/)** : All-in-one platform for finding best AI tools, people to follow, best AI tools for each profession and more.
-- **[IA sur mesure](https://iasurmesure.com/)** : A french directory
-- **[Insidr AI Directory](https://www.insidr.ai/ai-tools/)** : AI Tools Directory
-- **[LineZine AI Tool Directory](https://linezine.com/ai-tool-directory)** : Curated list of AI tools for business use
-- **[ListYourTool](https://www.listyourtool.com/)** : Discover the best AI tools in one place
-- **[Launch Vault](https://www.launchvault.dev/)** : The Ultimate Product Launch Platform for Indie Hackers and Startups
-- **[Makerlist.io](https://makerlist.io)** : Directory of tools & Startups
-- **[Marketing Tools List](https://marketingtoolslist.com)** : a curated list of marketing tools in various categories
-- **[NavTools AI](https://navtools.ai/)** : Best AI Tools Directory & AI Tools List
-- **[NeonRev](https://www.neonrev.com/)** : One of the largest and best AI Tools Directory
-- **[OpenHunts](https://openhunts.com/)** : Launch and hunt products openly - A platform for discovering and showcasing new products and tools
-- **[OpenSaasDirectory](https://opensaas.directory/)** : Discover and explore the best open-source SaaS projects.
-- **[OpenTools](https://opentools.ai/)** : Chat with our GPT to find the right AI tool for you
-- **[OpenFuture AI](https://openfuture.ai)** : Largest Tools Directory, Fastest Update, The Most Accurate Database
-- **[Orbic AI](https://orbic.ai)** : Largest GPT Store And AI Tools Directory
-- **[PoweredbyAI](https://poweredbyai.app)** : AI TOOLS & PROMPTS!
-- **[Productivity Tools](https://productivity.directory)** : A curated productivity directory
-- **[Startuplist.in](https://startuplist.in/)** : Get free backlinks to boost your SEO and get more traffic to your website.
-- **[Stratup.ai](https://stratup.ai/)** : AI-Powered Startup Ideas and Tools to Fuel Your Entrepreneurial Journey
-- **[Startup Tools List](https://startuptoolslist.com)** : Find Best Tools For Start Your Startup
-- **[Spiff.store](http://spiff.store/)** : Internet's best database for AI tools. Discover top AI websites or submit your own tool for more traffic.
-- **[Sales Tools AI](https://salestoolsai.top/)** : Find AI Tools that increase your sales
-- **[Stackviv](https://stackviv.ai/)** : The Largest AI Directory Featuring the Best Tools Across 1000+ Curated Categories!
-- **[SearchAiDirectory](https://searchaidirectory.com/)** : Find the best AI tools to solve your problems.
-- **[Selljam.ai](https://selljam.ai/)** : Best AI tools and resources for online sellers and ecom pros.
-- **[Show Me Best AI](https://showmebest.ai/)** : Discover the best AI tools at ShowMeBestAI
-- **[Submit AI Tools](https://submitaitools.org)** : Unleash AI's Potential Discover Tools, Drive Innovation
-- **[There's An AI](https://theresanai.com)** : No 1 AI Aggregator
-- **[THANK JOHN](https://www.thankjohn.com/)** : Free tool submissions + featured
-- **[.Tech AI TOOLS ](https://allaitools.tech)** : No 1 AI Tools and Agents directory, spam-free, AI-Powered recommendations, Worthy Newsletter
-- **[ToolFinder](https://toolfinder.wiki)** : Discover & browse thousands of tools
-- **[Toolify.ai](https://www.toolify.ai/)** : Best AI Companies and Tools, Auto Updated Daily By ChatGPT
-- **[Toolwave.io](https://www.toolwave.io)** : Toolwave - Discover Thousands of AI Tools for Every Use Case
-- **[TopAI.tools](https://topai.tools/)** : Discover the best AI tools Everyday
-- **[ToolPasta by Robopost](https://toolpasta.com/)** : Discover The Best AI Websites & Tools
-- **[Tool Pilot](https://www.toolpilot.ai)** : Navigate the World of AI Tools
-- **[Top Tools](https://www.toptools.ai/)** : AI Tools Directory
-- **[Tools](https://tools.so/)** : Growing directory of the best AI tools on the internet.
-- **[Tools Hub AI](https://toolshubai.com/)** : Explore the best AI tools for every task
-- **[ThatsMyAI](https://thatsmy.ai/)** : Discover the right AI Apps and Certifications for your needs
-- **[The Next AI Tool](https://thenextaitool.com)** : Discover over 43K AI tools across 80+ categories
-- **[TrustList](https://www.trustlist.ai/)** : Your Trusted A.I. Guide. Discover the A.I. solutions that simplify your daily tasks.
-- **[TrustedBy](https://www.trustedby.ai/)** : AI Tools Trusted by Top Business Leaders, Operators & Professionals.
-- **[Toolkitly](https://www.toolkitly.com/)** : Your Go-To Platform for Tech Tool Discussions, Innovations & Real-Time Updates!
-- **[Victrays](https://www.Victrays.com/)** : Find Ai tools | Ai Prompts | Plugins
-- **[WhatstheBigData.com](https://whatsthebigdata.com/ai-tools/)** : Browse the top AI tools
-- **[Yet Another AI Tool Directory](https://yaatd.com/)** : Yet Another AI Tool Directory
+- **[Best of AI](https://bestofai.io)**: List of just best AI Tools
+- **[Based Tools](https://www.basedtools.ai/)**: The most Based AI Directory.
+- **[Best AI Tools org](https://www.best-ai-tools.org/)**: Find & Learn AI Tools with AI ChatBot + free Academy
+- **[Beyond AI Tools](https://www.beyondaitools.com/)**: AI tools, solutions, best practices, and more — all with multilingual support, aiming to foster AI adoption across the globe.
+- **[Byblos AI](https://byblosai.com/)**: Find AI tools and software using an AI search
+- **[BuildVoyage](https://buildvoyage.com/)**: A micro-saas directory for AI projects where the journey is what matters!
+- **[ClaudePro.directory](https://claudepro.directory/)**: The unofficial home for Claude enthusiasts. Explore expert rules, browse powerful MCP servers, find specialized agents and commands, discover automation hooks, and connect with the community building the future of AI.
+- **[Cloudbooklet AI](https://www.cloudbooklet.net/)**: Cloudbooklet AI Tools.
+- **[CogList AI](https://coglist.com/)**: AI Agents/Tools Directory and List for Indie Hackers in Project Building.
+- **[DataLook.io](https://datalook.io/)**: Discover the best AI tools, data science resources, and the latest insights in artificial intelligence.
+- **[Dynamite AI](https://www.dynamite-ai.com/)**: Yet another (FREE) AI Tools Directory.
+- **[Dessign](https://dessign.net/)**: AI Tools Directory.
+- **[Desifounder](https://desifounder.com/spotlight)**: Discover AI Projects & Tools.
+- **[EliteAI Tools](https://eliteai.tools)**: AI tools directory, exclusively featuring high-quality AI tools
+- **[EveryDev.ai](https://www.everydev.ai)**: The largest developer curated AI tools directory and social network
+- **[Evolmagazine.com](https://www.evolmagazine.com/en/tools/)**: Find, compare, and integrate the best AI and productivity tools
+- **[Expify](https://www.expify.ai)**: Biggest AI tools directory in the planet.
+- **[Find An AI Tools](https://findanaitools.com)**: No 1 AI Aggregator
+- **[Findyouragent.ai](https://findyouragent.ai/)**: A curated AI Agent Directory & Search Platform
+- **[Find my AI Tool](https://findmyaitool.com/)**: Discover AI Tools for Your Business.
+- **[Foundr](https://foundr.ai/)**: Discover The Best AI Tools at Your Fingertips
+- **[Free AI Tool](https://freeaitool.ai/)**: List of Best & Latest Free AI Tools in 2024
+- **[Futurepedia Wiki](https://futurepedia.wiki)**: Find the best futuristic tools
+- **[FUTUREPEDIA](https://www.futurepedia.io/)**: THE LARGEST AI TOOLS DIRECTORY, UPDATED DAILY
+- **[FutureTools](https://www.futuretools.io/)**: Collects & Organizes All The Best AI Tools So YOU Too Can Become Superhuman!
+- **[flowtools](https://www.flowtools.co)**: Your first stop for smart AI tool decisions
+- **[FastLaunch](https://fastlaunch.io/)**: FastLaunch - Launch & Discover Amazing Products
+- **[Grabon AI Directory](https://www.grabon.in/indulge/ai-tools/)**: The World's Best & Largest Directory Of AI Tools
+- **[God of Prompt](https://godofprompt.ai/best-ai-tools/)**: 1000+ Best AI Tools for Marketing & Business
+- **[GroupifyAI](https://groupify.ai/)**: Explore, Compare & Review Best Trending AI tools & AI courses on the top AI platform.
+- **[Havnai](https://havnai.com/)**: The world's first AI tool directory offering 60-second video intros for each tool and one-click AI tool lists by industry name.
+- **[HeyAIworld](https://heyaiworld.com/)**: All-in-one platform for finding best AI tools, people to follow, best AI tools for each profession and more.
+- **[IA sur mesure](https://iasurmesure.com/)**: A french directory
+- **[Insidr AI Directory](https://www.insidr.ai/ai-tools/)**: AI Tools Directory
+- **[LineZine AI Tool Directory](https://linezine.com/ai-tool-directory)**: Curated list of AI tools for business use
+- **[ListYourTool](https://www.listyourtool.com/)**: Discover the best AI tools in one place
+- **[Launch Vault](https://www.launchvault.dev/)**: The Ultimate Product Launch Platform for Indie Hackers and Startups
+- **[Makerlist.io](https://makerlist.io)**: Directory of tools & Startups
+- **[Marketing Tools List](https://marketingtoolslist.com)**: a curated list of marketing tools in various categories
+- **[NavTools AI](https://navtools.ai/)**: Best AI Tools Directory & AI Tools List
+- **[NeonRev](https://www.neonrev.com/)**: One of the largest and best AI Tools Directory
+- **[OpenHunts](https://openhunts.com/)**: Launch and hunt products openly - A platform for discovering and showcasing new products and tools
+- **[OpenSaasDirectory](https://opensaas.directory/)**: Discover and explore the best open-source SaaS projects.
+- **[OpenTools](https://opentools.ai/)**: Chat with our GPT to find the right AI tool for you
+- **[OpenFuture AI](https://openfuture.ai)**: Largest Tools Directory, Fastest Update, The Most Accurate Database
+- **[Orbic AI](https://orbic.ai)**: Largest GPT Store And AI Tools Directory
+- **[PoweredbyAI](https://poweredbyai.app)**: AI TOOLS & PROMPTS!
+- **[Productivity Tools](https://productivity.directory)**: A curated productivity directory
+- **[Stratup.ai](https://stratup.ai/)**: AI-Powered Startup Ideas and Tools to Fuel Your Entrepreneurial Journey
+- **[Startup Tools List](https://startuptoolslist.com)**: Find Best Tools For Start Your Startup
+- **[Spiff.store](http://spiff.store/)**: Internet's best database for AI tools. Discover top AI websites or submit your own tool for more traffic.
+- **[Sales Tools AI](https://salestoolsai.top/)**: Find AI Tools that increase your sales
+- **[Stackviv](https://stackviv.ai/)**: The Largest AI Directory Featuring the Best Tools Across 1000+ Curated Categories!
+- **[SearchAiDirectory](https://searchaidirectory.com/)**: Find the best AI tools to solve your problems.
+- **[Selljam.ai](https://selljam.ai/)**: Best AI tools and resources for online sellers and ecom pros.
+- **[Show Me Best AI](https://showmebest.ai/)**: Discover the best AI tools at ShowMeBestAI
+- **[Submit AI Tools](https://submitaitools.org)**: Unleash AI's Potential Discover Tools, Drive Innovation
+- **[There's An AI](https://theresanai.com)**: No 1 AI Aggregator
+- **[THANK JOHN](https://www.thankjohn.com/)**: Free tool submissions + featured
+- **[.Tech AI TOOLS ](https://allaitools.tech)**: No 1 AI Tools and Agents directory, spam-free, AI-Powered recommendations, Worthy Newsletter
+- **[ToolFinder](https://toolfinder.wiki)**: Discover & browse thousands of tools
+- **[Toolify.ai](https://www.toolify.ai/)**: Best AI Companies and Tools, Auto Updated Daily By ChatGPT
+- **[Toolwave.io](https://www.toolwave.io)**: Toolwave - Discover Thousands of AI Tools for Every Use Case
+- **[TopAI.tools](https://topai.tools/)**: Discover the best AI tools Everyday
+- **[ToolPasta by Robopost](https://toolpasta.com/)**: Discover The Best AI Websites & Tools
+- **[Tool Pilot](https://www.toolpilot.ai)**: Navigate the World of AI Tools
+- **[Top Tools](https://www.toptools.ai/)**: AI Tools Directory
+- **[Tools](https://tools.so/)**: Growing directory of the best AI tools on the internet.
+- **[Tools Hub AI](https://toolshubai.com/)**: Explore the best AI tools for every task
+- **[ThatsMyAI](https://thatsmy.ai/)**: Discover the right AI Apps and Certifications for your needs
+- **[The Next AI Tool](https://thenextaitool.com)**: Discover over 43K AI tools across 80+ categories
+- **[TrustList](https://www.trustlist.ai/)**: Your Trusted A.I. Guide. Discover the A.I. solutions that simplify your daily tasks.
+- **[TrustedBy](https://www.trustedby.ai/)**: AI Tools Trusted by Top Business Leaders, Operators & Professionals.
+- **[Toolkitly](https://www.toolkitly.com/)**: Your Go-To Platform for Tech Tool Discussions, Innovations & Real-Time Updates!
+- **[Victrays](https://www.Victrays.com/)**: Find Ai tools | Ai Prompts | Plugins
+- **[WhatstheBigData.com](https://whatsthebigdata.com/ai-tools/)**: Browse the top AI tools
+- **[Yet Another AI Tool Directory](https://yaatd.com/)**: Yet Another AI Tool Directory
 
 ## 🛠️ Development & Coding Tools
 
 ### AI Code Assistants & Editors
 - **[Cursor](https://www.cursor.sh/)**: AI-powered code editor with advanced autocompletion and real-time coding assistance.
 - **[Cody (Sourcegraph)](https://about.sourcegraph.com/cody)**: AI assistant for code understanding, navigation, and generation across repositories.
-- **[Windsurf](https://windsurf.com/)**: AI-powered code editor with a powerful and advanced flexible coding agent that goes beyond simple autocompletion and.
+- **[Windsurf](https://windsurf.com/)**: AI code editor with an agent for multi-step development tasks.
 - **[Aider](https://aider.chat)**: Collaborative AI tool for pair-programming and generating code edits via CLI.
 - **[Phind](https://www.phind.com/)**: AI search and coding assistant for instant answers and code solutions.
 - **[Kilo Code](https://kilocode.ai)**: AI-enhanced coding tool for generating and optimizing code workflows.
@@ -331,7 +324,7 @@ This is a comprehensive and organized collection of directories, tools, learning
 - **[Codel](https://codel.ai/)**: AI-powered development environment.
 - **[PearAI](https://pear.ai/)**: AI-powered development assistant.
 - **[Kiro](https://kiro.dev/)**: AI-powered development environment.
-- **[Zed](https://zed.dev/)** – High-performance, multiplayer code editor built in Rust with integrated AI assistance.
+- **[Zed](https://zed.dev/)**: High-performance, multiplayer code editor built in Rust with integrated AI assistance.
 - **[Claude Desktop](https://claude.ai/desktop)**: Anthropic's desktop application for development tasks, code analysis, and programming assistance.
 - **[Magic](https://magic.dev/)**: AI software engineer platform that understands codebases and handles complex development tasks autonomously.
 - **[Jupyter AI](https://jupyter-ai.readthedocs.io/)**: AI-powered extensions for Jupyter notebooks enabling natural language code generation and data analysis.
@@ -373,7 +366,6 @@ This is a comprehensive and organized collection of directories, tools, learning
 - **[ReviewNB](https://www.reviewnb.com/)**: Jupyter notebook code review tool.
 - **[CodeAnt AI](https://codeant.ai/)**: AI-powered code review and quality analysis.
 - **[Squire.ai](https://squire.ai/)**: AI-powered code review and quality assurance.
-- **[Terragon](https://www.terragonlabs.com/dashboard)**: Comprehensive code review and automated test generation platform.
 - **[Embold](https://embold.io/)**: AI-powered code analysis focusing on code quality, maintainability, and technical debt identification.
 - **[PullRequest](https://www.pullrequest.com/)**: Human-AI hybrid code review service combining automated analysis with expert human reviewers.
 - **[Veracode](https://www.veracode.com/)**: AI-driven application security platform with static and dynamic analysis capabilities.
@@ -383,7 +375,6 @@ This is a comprehensive and organized collection of directories, tools, learning
 - **[Checksum AI](https://checksum.ai)**: AI-driven tool for automated software testing and validation.
 - **[OctoMind](https://octomind.dev)**: AI-powered platform for end-to-end testing automation.
 - **[KushoAI](https://kusho.ai/)**: AI-driven API testing tool for comprehensive QA automation.
-- **[Test Gru](https://gru.ai/home#test-gru)**: AI-powered testing assistant for streamlined QA workflows.
 - **[Qodo](https://www.qodo.ai/)**: AI tool for generating tests and ensuring code quality.
 - **[Meticulous](https://www.meticulous.ai/)**: AI-driven tool for automated visual and functional testing.
 - **[TestRigor](https://testrigor.com/)**: Plain English test automation with generative AI and self-healing capabilities.
@@ -419,8 +410,8 @@ This is a comprehensive and organized collection of directories, tools, learning
 - **[Kubiya.ai](https://kubiya.ai/)**: AI-powered DevOps automation platform.
 - **[Warestack](https://warestack.com/)**: AI-powered development infrastructure.
 - **[Harness](https://harness.io/)**: AI-powered CI/CD platform with intelligent deployment strategies, automated rollbacks, and performance optimization.
-- **[GitLab AI](https://about.gitlab.com/solutions/artificial-intelligence)**: Integrated AI features across GitLab including code suggestions, security scanning, and workflow optimization.
-- **[Terraform Cloud](https://www.terraform.io/cloud)** – Infrastructure as code platform with AI-powered policy suggestions and optimization recommendations.
+- **[GitLab Duo Agent Platform](https://about.gitlab.com/gitlab-duo-agent-platform/)**: AI agents and workflows for planning, coding, security, and software delivery.
+- **[Terraform Cloud](https://www.terraform.io/cloud)**: Infrastructure as code platform with AI-powered policy suggestions and optimization recommendations.
 - **[Pulumi AI](https://www.pulumi.com/ai)**: Infrastructure as code platform with AI assistance for cloud resource management and optimization.
 
 ### Security & Compliance
@@ -434,14 +425,14 @@ This is a comprehensive and organized collection of directories, tools, learning
 - **[JFrog Xray](https://jfrog.com/xray)**: AI-driven security and compliance scanning for DevOps pipelines and artifact repositories.
 
 ### AI Security Tools
-- **[Snyk Code AI](https://snyk.io/product/snyk-code)**: Static Application Security Testing (SAST) tool for scanning source code for vulnerabilities and insecure patterns as.
+- **[Snyk Code AI](https://snyk.io/product/snyk-code)**: AI-assisted static analysis for source-code vulnerabilities and insecure patterns.
 - **[Snyk API & Web](https://snyk.io/product/api-security)**: Dynamic Application Security Testing (DAST) tool for discovering and testing the security of running APIs and web.
 - **Snyk DeepCode AI**: The AI engine that powers Snyk Code and other Snyk security tools, providing advanced vulnerability detection, autofix, and risk prioritization. (Not a standalone product)
 - **[GitGuardian AI](https://www.gitguardian.com/)**: AI-based tool that monitors codebases for leaked secrets, API keys, credentials, and sensitive information across both.
 - **[Bearer CLI](https://github.com/Bearer/bearer)**: Open-source AI tool for static security analysis, specializing in detecting sensitive data exposure and ensuring.
-- **[HackerOne Code](https://www.hackerone.com/product/code)**: Combines AI and human expertise for code security, offering context-aware vulnerability detection, triage, and.
+- **[HackerOne Code](https://www.hackerone.com/product/code)**: Code security with context-aware vulnerability detection and triage.
 - **[Endor Labs AI Code Security](https://www.endorlabs.com/ai-code-security-review)**: AI-driven code review platform that analyzes every pull request for security risks, architectural changes, and business.
-- **[Code Intelligence CI Fuzz](https://www.code-intelligence.com/)**: AI-automated fuzz testing tool for C/C++ and other languages, enabling developers to find and fix critical bugs and.
+- **[Code Intelligence CI Fuzz](https://www.code-intelligence.com/)**: Automated fuzzing for C/C++ and other languages to find reliability defects.
 
 ### App Builders & Generators
 - **[Mage](https://usemage.ai/)**: AI-powered tool for generating full-stack applications from prompts.
@@ -466,7 +457,7 @@ This is a comprehensive and organized collection of directories, tools, learning
 - **[Rocket.new](https://rocket.new/)**: AI-powered rapid application development.
 - **[Builder.io Fusion](https://www.builder.io/)**: AI-powered visual development platform.
 - **[Manifest.build](https://manifest.build/)**: AI-driven Backend.
-- **[lovable.dev](https://lovable.dev/)**:  It allows you to build and deploy web applications from a single prompt.
+- **[lovable.dev](https://lovable.dev/)**: It allows you to build and deploy web applications from a single prompt.
 - **[MagicLoops](https://magicloops.dev)**: Create complete apps in minutes with no code.
 - **[base44](https://www.base44.com/)**: AI-native software development OS for startups to design, develop & deploy products faster.
 - **[10Web](https://10web.io/)**: AI-powered WordPress website builder with automated design, content generation, and optimization features.
@@ -480,12 +471,11 @@ This is a comprehensive and organized collection of directories, tools, learning
 - **[Kombai](https://kombai.com/)**: AI tool for converting designs into production-ready UI code.
 - **[Deepsite](https://huggingface.co/spaces/enzostvs/deepsite)**: An AI platform that helps you build stunning websites, no code required.
 - **[Rendition Create](https://www.renditioncreate.com/)**: AI-powered UI generator for web and mobile interfaces.
-- **[Phorm.ai](https://phorm.ai/)**: AI-powered form and interface generation.
 - **[Stitch (by Google)](https://stitch.withgoogle.com/)**: AI-powered UI generator from Google Labs, uses Gemini models to convert natural language or image inputs into.
 - **[Uizard](https://uizard.io/)**: AI-powered design tool converting hand-drawn mockups, screenshots, or text into interactive prototypes and code.
 - **[Figma AI](https://figma.com/ai)**: Native AI features within Figma for automated design tasks, content generation, and design-to-code workflows.
 - **[TeleportHQ](https://teleporthq.io/)**: AI-powered front-end design platform generating production-ready code from visual designs.
-- **[Freepik](https://www.freepik.com/)**: AI-powered design platform with image generation, background removal, and mockup creation tools for UI designers and.
+- **[Freepik](https://www.freepik.com/)**: Design platform with AI image generation, background removal, and mockup tools.
 
 ### Documentation Tools
 - **[Trelent](https://trelent.net/)**: AI-powered tool for generating code documentation and comments.
@@ -496,12 +486,10 @@ This is a comprehensive and organized collection of directories, tools, learning
 - **[Cleric.io](https://cleric.io/)**: AI assistant for technical documentation and code explanation.
 - **[Theneo.io](https://theneo.io/)**: AI-powered API documentation generation.
 - **[Mintlify](https://mintlify.com/)**: AI-powered documentation platform that automatically generates and maintains technical documentation from code.
-- **[GitBook AI](https://gitbook.com/ai)**: AI-enhanced documentation platform with intelligent content suggestions and automated organization.
 - **[Slab](https://slab.com/)**: Team knowledge base with AI-powered search, content suggestions, and automated documentation workflows.
-- **[GPTutor](https://gptutor.tools/)**: VS Code extension offering customizable LLM‑powered code explanations and tutoring across 120+ human languages and.
+- **[GPTutor](https://gptutor.tools/)**: VS Code extension for LLM-powered code explanations and tutoring.
 
 ### ChatGPT in Your Editor
-- **[CodeGPT.nvim](https://github.com/dpayne/CodeGPT.nvim)**: Neovim plugin for integrating ChatGPT-powered code assistance.
 - **[autocomplete.sh](https://github.com/closedLoop-technologies/autocomplete-sh)**: AI-powered shell autocompletion using ChatGPT.
 - **[org-ai (Emacs)](https://github.com/rksm/org-ai)**: Emacs plugin for ChatGPT-based coding and text assistance.
 - **[Genie AI – ChatGPT for VS Code](https://github.com/ai-genie/chatgpt-vscode)**: VS Code extension for ChatGPT-powered coding support.
@@ -513,18 +501,17 @@ This is a comprehensive and organized collection of directories, tools, learning
 - **[AppSheet (Google)](https://www.appsheet.com/)**: No-code app development platform with AI-powered data integration and workflow automation.
 
 ### Database & API Tools
-- **[Supabase AI](https://supabase.com/ai)**: AI features for database schema generation, query optimization, and API development assistance.
 - **[Hasura](https://hasura.io/)**: GraphQL API platform with AI-powered query optimization and schema management.
 - **[Retool AI](https://retool.com/ai)**: AI-powered internal tool builder with natural language interface for creating business applications.
 
 ### MLOps & Specialized Tools
-- **[Weights & Biases](https://wandb.ai/)** – MLOps platform with AI model management, experiment tracking, and automated hyperparameter optimization.
-- **[Gradio](https://gradio.app/)** – AI tool for rapidly creating machine learning model demos and interactive interfaces.
-- **[Streamlit](https://streamlit.io/)** – Framework for building AI/ML data applications with minimal code and AI-powered features.
-- **[Observable](https://observablehq.com/)** – Data visualization platform with AI-enhanced analysis and interactive notebook capabilities.
+- **[Weights & Biases](https://wandb.ai/)**: MLOps platform with AI model management, experiment tracking, and automated hyperparameter optimization.
+- **[Gradio](https://gradio.app/)**: AI tool for rapidly creating machine learning model demos and interactive interfaces.
+- **[Streamlit](https://streamlit.io/)**: Framework for building AI/ML data applications with minimal code and AI-powered features.
+- **[Observable](https://observablehq.com/)**: Data visualization platform with AI-enhanced analysis and interactive notebook capabilities.
 
 ### MCP Server/Tools
-- **[ARNES](https://github.com/frangelbarrera/ARNES)**: MCP-compatible framework and server for running transparent, vendor-neutral agent workflows with markdown audit logs.
+- **[MCP Inspector](https://github.com/modelcontextprotocol/inspector)**: Official visual, CLI, and TUI tool for inspecting Model Context Protocol servers.
 - **[MCP Server Finder](https://www.mcpserverfinder.com/servers)**: Discover and browse a wide range of MCP servers.
 - **[MCP So](https://mcp.so/)**: Platform for MCP server resources and community.
 - **[MCP Market](https://mcpmarket.com/)**: Marketplace for MCP-related tools and services.
@@ -538,7 +525,7 @@ This is a comprehensive and organized collection of directories, tools, learning
 ##  Text & Writing Tools
 
 ### Language Models
-- **[OpenAI API](https://openai.com/api)**: OpenAI's API provides access to GPT-3 and GPT-4 models, which performs a wide variety of natural language tasks, and.
+- **[OpenAI API](https://platform.openai.com/docs/overview)**: API platform for building applications with OpenAI models and tools.
 - **[Gopher](https://www.deepmind.com/blog/language-modelling-at-scale-gopher-ethical-considerations-and-retrieval)**: Gopher by DeepMind is a 280 billion parameter language model.
 - **[OPT](https://huggingface.co/facebook/opt-350m)**: Open Pretrained Transformers (OPT) by Facebook is a suite of decoder-only pre-trained transformers.
 - **[Bloom](https://huggingface.co/docs/transformers/model_doc/bloom)**: BLOOM by Hugging Face is a model similar to GPT-3 that has been trained on 46 different languages and 13 programming.
@@ -548,12 +535,12 @@ This is a comprehensive and organized collection of directories, tools, learning
 - **[Vicuna-13B](https://lmsys.org/blog/2023-03-30-vicuna)**: An open-source chatbot trained by fine-tuning LLaMA on user-shared conversations collected from ShareGPT.
 - **[Stable Beluga](https://huggingface.co/stabilityai/StableBeluga1-Delta)**: A finetuned LLamma 65B model.
 - **[Stable Beluga 2](https://huggingface.co/stabilityai/StableBeluga2)**: A finetuned LLamma2 70B model.
-- **[GPT-4o Mini](https://altern.ai/ai/gpt-4o-mini)**: Advancing cost-efficient intelligence.
+- **[GPT-4o mini](https://openai.com/index/gpt-4o-mini-advancing-cost-efficient-intelligence/)**: Small model for cost-efficient text and vision workloads.
 
 ### Chatbots & Conversational AI
 - **[ChatGPT](https://chatgpt.com)**: ChatGPT by OpenAI is a large language model that interacts in a conversational way.
-- **[Bing Chat](https://www.bing.com/chat)**: A conversational AI language model powered by Microsoft Bing.
-- **[Gemini](https://gemini.google.com)**: An experimental AI chatbot by Google, powered by the LaMDA model.
+- **[Microsoft Copilot](https://copilot.microsoft.com/)**: Microsoft's AI assistant for web chat, search, and productivity.
+- **[Gemini](https://gemini.google.com/)**: Google's AI assistant for multimodal chat, research, writing, and code assistance.
 - **[Character.AI](https://character.ai/)**: Character.AI lets you create characters and chat to them.
 - **[ChatPDF](https://www.chatpdf.com/)**: Chat with any PDF.
 - **[ChatSonic](https://writesonic.com/chat)**: An AI-powered assistant that enables text and image creation.
@@ -599,10 +586,8 @@ This is a comprehensive and organized collection of directories, tools, learning
 - **[RapidTextAI](https://app.rapidtextai.com/)**: Write Advance Articles using Multiple AI Models like GPT4, Gemini, Deepseek and grok.
 - **[Copysmith](https://copysmith.ai/)**: AI content creation solution for Enterprise & eCommerce.
 - **[Yomu](https://www.yomu.ai)**: AI writing assistant for students and academics.
-- **[Listomatic](https://listomatic.app)**: Free and fully configurable real estate listing description generator.
 - **[Quick Creator](https://quickcreator.io)**: SEO-Optimized Blog platform powered by AI.
 - **[Trolly.ai](https://trolly.ai/)**: Trolly.ai can help you in creating professional SEO articles, 2x faster. This tool crafts content that search engines.
-- **[Dittto.ai](https://dittto.ai)**: Fix your hero copy with an AI trained on top SaaS websites.
 - **[PulsePost](https://pulsepost.io/)**: AI writer that Auto Publishes to your own website.
 - **[Shy Editor](https://www.shyeditor.com)**: A modern AI-assisted writing environment for all types of prose.
 - **[DeepL Write](https://www.deepl.com/write)**: AI writing tool that improves written communication.
@@ -621,7 +606,7 @@ This is a comprehensive and organized collection of directories, tools, learning
 - **[ChatGPT Writer](https://chatgptwriter.ai/)**: Generate entire emails and messages using ChatGPT AI.
 - **[ChatGPT for Jupyter](https://github.com/TiesdeKok/chat-gpt-jupyter-extension)**: Add various helper functions in Jupyter Notebooks and Jupyter Lab, powered by ChatGPT.
 - **[editGPT](https://www.editgpt.app/)**: Easily proofread, edit, and track changes to your content in chatGPT.
-- **[Chatbot UI](https://www.chatbotui.com/)**: An open source ChatGPT UI.
+- **[Chatbot UI](https://github.com/mckaywrigley/chatbot-ui)**: Open-source AI chat application for multiple language models.
 - **[Forefront](https://www.forefront.ai/)**: A Better ChatGPT Experience.
 - **[AI Character for GPT](https://chromewebstore.google.com/detail/ai-character-for-gpt/daoeioifimkjegafelcaljboknjkkohh)**: One click to curate AI chatbot, including ChatGPT, Google Bard to improve AI responses.
 
@@ -674,7 +659,6 @@ This is a comprehensive and organized collection of directories, tools, learning
 - **[CallURL](https://callurl.com)**: Build a free Call App in 60 seconds, give it a job, and share it by link or QR to handle calls for workflows like lead.
 - **[SalesAgent Chat](https://www.salesagent.chat)**: AI Sales Coach & Copilot for real-time support.
 - **[ReBillion.ai](https://tc.rebillion.ai/)**: AI-powered transaction coordination and workflow automation for real estate professionals.
-- **[Perch Reader](https://perch.app/)**: Free blog and newsletter aggregator with AI summaries and text-to-speech.
 - **[X-doc AI](https://x-doc.ai/)**: The most accurate AI translator.
 - **[Tudo](https://blynkai.app/tudo)**: AI task manager that converts voice notes, screenshots, and shared content into structured tasks and subtasks.
 
@@ -720,8 +704,6 @@ This is a comprehensive and organized collection of directories, tools, learning
 - **[gpt4all](https://github.com/nomic-ai/gpt4all)**: A chatbot trained on a massive collection of clean assistant data including code, stories and dialogue.
 - **[LMQL](https://lmql.ai/)**: LMQL is a query language for large language models.
 - **[LlamaIndex](https://www.llamaindex.ai/)**: A data framework for building LLM applications over external data.
-- **[Langfuse](https://langfuse.com/)**: Open-source LLM engineering platform that helps teams collaboratively debug, analyze, and iterate on their LLM.
-- **[Phoenix](https://phoenix.arize.com/)**: Open-source tool for ML observability that runs in your notebook environment, by Arize.
 - **[Prediction Guard](https://www.predictionguard.com/)**: Seamlessly integrate private, controlled, and compliant Large Language Models (LLM) functionality.
 - **[Portkey](https://portkey.ai/)**: Full-stack LLMOps platform to monitor, manage, and improve LLM-based apps.
 - **[OpenAI Downtime Monitor](https://status.portkey.ai/)**: Free tool that tracks API uptime and latencies for various OpenAI models and other LLM providers.
@@ -732,11 +714,10 @@ This is a comprehensive and organized collection of directories, tools, learning
 - **[CodeRabbit](https://coderabbit.ai/)**: An AI-powered code review tool that helps developers improve code quality and productivity.
 - **[Toprank](https://github.com/nowork-studio/toprank)**: Open-source Claude Code plugin for SEO and Google Ads (9 skills, Search Console).
 - **[Pagerly](https://www.pagerly.io)**: Your Operations Co-pilot on Slack/Teams. It assists and prompts oncall with relevant information to debug issues.
-- **[Hexabot](https://hexabot.ai)**: A Open-source No-Code tool to build your AI Chatbot / Agent (multi-lingual, multi-channel, LLM, NLU, + ability to.
+- **[Hexabot](https://hexabot.ai)**: Open-source no-code platform for multilingual AI chatbots and agents.
 - **[Plandex](https://github.com/plandex-ai/plandex)**: Open source, terminal-based AI programming engine for complex tasks.
 - **[AI/ML API](https://aimlapi.com/)**: AI/ML API gives developers access to 100+ AI models with one API.
 - **[Callstack.ai PR Reviewer](https://callstack.ai/pr-reviewer)**: Automated Code Reviews: Find Bugs, Fix Security Issues, and Speed Up Performance.
-- **[Opik](https://www.comet.com/site/products/opik)**: Evaluate, test, and ship LLM applications with a suite of observability tools to calibrate language model outputs.
 - **[Kiln](https://getkiln.ai)**: Intuitive app to build your own AI models. Includes no-code synthetic data generation, fine-tuning, dataset.
 - **[Calmo](https://getcalmo.com/)**: Debug Production x10 Faster with AI.
 - **[Cleanlab](https://help.cleanlab.ai/tlm)**: Detect and remediate hallucinations in any LLM application.
@@ -748,17 +729,16 @@ This is a comprehensive and organized collection of directories, tools, learning
 - **[ToolHive](https://github.com/stacklok/toolhive)**: Find the right MCP server for your task and deploy with one click.
 - **[StarOps](https://ingenimax.ai)**: AI Platform Engineer.
 - **[AgentDock](https://agentdock.ai)**: Unified infrastructure for AI agents and automation. One API key for all services instead of managing dozens.
-- **[Rysa AI](https://www.rysa.ai)**: AI GTM Automation Agent.
 - **[Agenta](https://agenta.ai/)**: Open-source LLMOps platform for prompt management, LLM evaluation, and observability.
 
 ##  Image & Design Tools
 
 ### Image Generation Models
-- **[DALL·E 2](https://openai.com/dall-e-2)**: DALL·E 2 by OpenAI is a new AI system that can create realistic images and art from a description in natural language.
+- **[GPT Image](https://developers.openai.com/api/docs/guides/image-generation)**: OpenAI image models for generating and editing images from text prompts.
 - **[Stable Diffusion](https://huggingface.co/CompVis/stable-diffusion-v1-4)**: Stable Diffusion by Stability AI is a state-of-the-art text-to-image model that generates images from text.
 - **[Midjourney](https://www.midjourney.com/)**: Midjourney is an independent research lab exploring new mediums of thought and expanding the imaginative powers of the.
 - **[Imagen](https://imagen.research.google/)**: Imagen by Google is a text-to-image diffusion model with an unprecedented degree of photorealism and a deep level of.
-- **[Make-A-Scene](https://ai.facebook.com/blog/greater-creative-control-for-ai-image-generation)**: Make-A-Scene by Meta is a multimodal generative AI method puts creative control in the hands of people who use it by.
+- **[Make-A-Scene](https://ai.facebook.com/blog/greater-creative-control-for-ai-image-generation)**: Meta research method for controllable multimodal text-to-image generation.
 - **[DragGAN](https://github.com/XingangPan/DragGAN)**: Drag Your GAN: Interactive Point-based Manipulation on the Generative Image Manifold.
 - **[Canva](https://www.canva.com/)**: Generate and Edit your Pictures with the help of AI.
 
@@ -780,7 +760,7 @@ This is a comprehensive and organized collection of directories, tools, learning
 - **[PhotoGuruAI](https://photoguruai.com/)**: Create professional AI Headshots in various styles.
 - **[Avatar AI](https://avatarai.me/)**: Create your own AI-generated avatars.
 - **[ClipDrop](https://clipdrop.co/)**: Create professional visuals without a photo studio, powered by [stability.ai](https://stability.ai/).
-- **[Lensa](https://prisma-ai.com/lensa)**: An all-in-one image editing app that includes the generation of personalized avatars using Stable Diffusion.
+- **[Lensa](https://lensa-ai.com/)**: AI photo and video editor with effects, retouching, and image enhancement tools.
 - **[RunDiffusion](https://rundiffusion.com/)**: Cloud-based workspace for creating AI-generated art.
 - **[Human Generator](https://generated.photos/human-generator)**: AI generator or realistic looking photos of humans.
 - **[VectorArt.ai](https://vectorart.ai)**: Create vector images with AI.
@@ -795,7 +775,7 @@ This is a comprehensive and organized collection of directories, tools, learning
 - **[iColoring](https://icoloring.ai)**: Free AI Coloring Pages Generator.
 - **[Suit me Up](https://suitmeup.pictures/)**: Generate pictures of you wearing a suit with AI.
 - **[AI Photo Forge](https://aiphotoforge.com/)**: A Telegram bot to generate AI pictures of you.
-- **[AI Boost](https://boost.pictures/)**: All-in-one service for creating and editing images with AI: upscale images, swap faces, generate new visuals and.
+- **[AI Boost](https://boost.pictures/)**: AI image editor for upscaling, face swapping, and new visual generation.
 - **[PlantTattoosAI](https://www.planttattoosai.com/)**: Plant and flower tattoos designs generator trained on real botanicals.
 
 ### Graphic Design Tools
@@ -838,7 +818,6 @@ This is a comprehensive and organized collection of directories, tools, learning
 - **[Resemble AI](https://www.resemble.ai/)**: Offers real-time voice synthesis with customization options, making it versatile for both developers and creatives.
 - **[Murf AI](https://murf.ai/)**: User-friendly platform for quick, high-quality voiceovers, favored for commercial and marketing applications.
 - **[iSpeech](https://www.ispeech.org/)**: A versatile solution for corporate applications with support for a wide array of languages and voices.
-- **[Veritone Voice](https://www.veritone.com/solutions/voice)**: Focuses on maintaining brand consistency with highly customizable voice cloning used in media and entertainment.
 - **[Microsoft Azure Neural TTS](https://azure.microsoft.com/en-us/services/cognitive-services/text-to-speech)**: Scalable and highly customizable, ideal for integration into enterprise applications.
 - **[WellSaid Labs](https://www.wellsaidlabs.com/)**: Gaining traction for its natural-sounding voiceovers, particularly in corporate training and e-learning.
 - **[Lovo.ai](https://www.lovo.ai/)**: A compelling choice for creative professionals, especially useful in ads and explainer videos.
@@ -956,7 +935,10 @@ This is a comprehensive and organized collection of directories, tools, learning
 - **[Qwen 2.5](https://github.com/QwenLM/Qwen)**: Leader in programming and mathematics benchmarks in the open source world.
 
 ### AI Agents & Frameworks
-- **[ARNES](https://github.com/frangelbarrera/ARNES)**: Open-source agent harness that compiles YAML manuals into auditable specialist workflows with budget controls, local-first defaults, and MCP support.
+- **[OpenAI Agents SDK](https://github.com/openai/openai-agents-python)**: Python framework for multi-agent workflows with tools, guardrails, and tracing.
+- **[LangGraph](https://github.com/langchain-ai/langgraph)**: Framework for stateful agents with durable execution and human oversight.
+- **[Pydantic AI](https://github.com/pydantic/pydantic-ai)**: Typed Python SDK for agents with structured outputs and model integrations.
+- **[ARNES](https://github.com/frangelbarrera/ARNES)**: Open-source agent harness for auditable specialist workflows with budget controls and MCP support.
 - **[AutoGPT](https://agpt.co)**: One of the first and most powerful open-source autonomous agents.
 - **[SuperAGI](https://superagi.com)**: Infrastructure to build, manage, and deploy AI agents.
 - **[Hermes](https://buildwithhermes.com)**: Operating platform for AI voice agencies with white-label client workspaces, CRM, and campaign orchestration.
@@ -966,6 +948,12 @@ This is a comprehensive and organized collection of directories, tools, learning
 - **[Genspark](https://genspark.ai)**: Agentic search engine that generates personalized result pages (Sparkpages) in real-time.
 - **[Perplexity](https://perplexity.ai)**: The pioneer in conversational search with cited sources and deep search.
 - **[SearchGPT](https://openai.com/search)**: OpenAI's bet to compete directly in the search engine market.
+
+### Agent Evaluation & Observability
+- **[Langfuse](https://langfuse.com/)**: Open-source platform for tracing, evaluating, and monitoring LLM applications.
+- **[Phoenix](https://phoenix.arize.com/)**: Open-source observability and evaluation platform for AI applications.
+- **[Opik](https://www.comet.com/site/products/opik)**: Platform for evaluating, testing, and monitoring LLM applications.
+- **[Promptfoo](https://github.com/promptfoo/promptfoo)**: Open-source toolkit for evaluating and red-teaming LLM applications.
 
 ### Local & Private AI
 - **[LM Studio](https://lmstudio.ai)**: Graphical interface to discover and run local models (GGUF).
