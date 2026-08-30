@@ -1,4 +1,4 @@
-# 🌌 Artificial Intelligence Universe 2026
+# Artificial Intelligence Universe 2026
 
 [![License: MIT](https://img.shields.io/github/license/frangelbarrera/Artificial-Intelligence-Universe?style=flat-square)](LICENSE)
 [![Stars](https://img.shields.io/github/stars/frangelbarrera/Artificial-Intelligence-Universe?style=flat-square)](https://github.com/frangelbarrera/Artificial-Intelligence-Universe/stargazers)
