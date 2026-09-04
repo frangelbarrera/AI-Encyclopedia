@@ -190,6 +190,7 @@ For cross-provider comparisons, consult independent benchmark methodologies in a
 - **[AI Tools Submit](https://submitaitools.org/submit-your-ai-tool/)**: Submit your AI tools
 - **[Awesome AI Tools](https://github.com/mahseema/awesome-ai-tools)**: A curated list of Artificial Intelligence Top Tools
 - **[AIDir](https://aidir.wiki)**: The first AI Directory of the world, Since 2022!
+- **[SaaSCity](https://saascity.io)**: Gamified SaaS and AI directory where every listing becomes a building on an isometric city map
 - **[AI Directory](https://aidirectory.wiki)**: Curated collection of AI-powered tools for productivity, creativity, and business.
 - **[AiDirs](https://aidirs.best)**: Discover and Share the Best AI Tools
 - **[AI For Developers](https://aifordevelopers.org)**: A curated list of AI DevTools
