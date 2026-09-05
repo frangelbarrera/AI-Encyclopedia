@@ -642,6 +642,7 @@ For cross-provider comparisons, consult independent benchmark methodologies in a
 - **[Emilio](https://getemil.io)**: Stop drowning in emails - Emilio prioritizes and automates your email, saving 60% of your time.
 - **[Pieces](https://pieces.app/)**: AI-enabled productivity tool designed to supercharge developer efficiency,with an on-device copilot that helps capture,.
 - **[Huntr AI Resume Builder](https://huntr.co/product/ai-resume-builder)**: Craft the perfect resume, with a little help from AI. Huntr's customizable AI Resume Builder will help you craft a.
+- **[ResumeAI](https://withresumeai.com/)**: Free ATS checker + AI resume builder; live candidate leaderboard (paid placement/visibility, not pay-for-score).
 - **[Chat With PDF by Copilot.us](https://copilot.us/apps/chat-with-pdf)**: An AI app that enables dialogue with PDF documents, supporting interactions with multiple files simultaneously through.
 - **[Recall](https://www.getrecall.ai/)**: Summarize Anything, Forget Nothing.
 - **[Talently AI](https://interview.talently.ai/)**: An Al interviewer that conducts live, conversational interviews and gives real-time evaluations to effortlessly.
