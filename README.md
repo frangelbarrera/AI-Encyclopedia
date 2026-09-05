@@ -558,6 +558,7 @@ For cross-provider comparisons, consult independent benchmark methodologies in a
 - **[Microsoft Copilot](https://copilot.microsoft.com/)**: Microsoft's AI assistant for web chat, search, and productivity.
 - **[Gemini](https://gemini.google.com/)**: Google's AI assistant for multimodal chat, research, writing, and code assistance.
 - **[Character.AI](https://character.ai/)**: Character.AI lets you create characters and chat to them.
+- **[WSUP AI](https://wsupai.app/)**: Free AI character chat in the browser — talk to AI characters with no sign up. SFW only.
 - **[ChatPDF](https://www.chatpdf.com/)**: Chat with any PDF.
 - **[ChatSonic](https://writesonic.com/chat)**: An AI-powered assistant that enables text and image creation.
 - **[Tiledesk](https://tiledesk.com/)**: Open-source LLM-enabled no-code chatbot development framework.
